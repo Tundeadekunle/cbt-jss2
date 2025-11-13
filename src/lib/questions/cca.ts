@@ -6,840 +6,840 @@ export const ccaQuestions: Question[] = [
     id: 1,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "History is the study of ______.",
+    question: "The elements of design are the basic __________ used to create artworks.",
     options: [
-      "the past events",
-      "the future",
-      "mathematics",
-      "science"
+      "tools",
+      "materials",
+      "components",
+      "rules"
     ],
-    correctAnswer: "the past events",
+    correctAnswer: "components",
     marks: 1
   },
   {
     id: 2,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The word 'history' comes from the Greek word 'Historia' meaning ______.",
+    question: "Which of the following is NOT an element of design?",
     options: [
-      "story",
-      "inquiry",
-      "record",
-      "tradition"
+      "Line",
+      "Texture",
+      "Balance",
+      "Colour"
     ],
-    correctAnswer: "inquiry",
+    correctAnswer: "Balance",
     marks: 1
   },
   {
     id: 3,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "One of the sources of history is ______.",
+    question: "The path made by a moving point is called __________.",
     options: [
-      "songs",
-      "oral tradition",
-      "magic",
-      "imagination"
+      "line",
+      "shape",
+      "form",
+      "pattern"
     ],
-    correctAnswer: "oral tradition",
+    correctAnswer: "line",
     marks: 1
   },
   {
     id: 4,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Written sources of history include ______.",
+    question: "The element that refers to the lightness or darkness of a colour is __________.",
     options: [
-      "folktales",
-      "textbooks",
-      "proverbs",
-      "carvings"
+      "form",
+      "value",
+      "texture",
+      "tone"
     ],
-    correctAnswer: "textbooks",
+    correctAnswer: "value",
     marks: 1
   },
   {
     id: 5,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Archaeology deals with ______.",
+    question: "Which element of design refers to the surface quality of an object?",
     options: [
-      "study of birds",
-      "study of human past through remains",
-      "study of stars",
-      "study of weather"
+      "Colour",
+      "Texture",
+      "Shape",
+      "Form"
     ],
-    correctAnswer: "study of human past through remains",
+    correctAnswer: "Texture",
     marks: 1
   },
   {
     id: 6,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Oral tradition means history passed down by ______.",
+    question: "When a shape has height, width, and depth, it is called a __________.",
     options: [
-      "writing",
-      "speaking",
-      "acting",
-      "dancing"
+      "line",
+      "form",
+      "space",
+      "texture"
     ],
-    correctAnswer: "speaking",
+    correctAnswer: "form",
     marks: 1
   },
   {
     id: 7,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Which of the following is NOT a source of history?",
+    question: "The area around, above, or within an object is called __________.",
     options: [
-      "Archaeology",
-      "Oral tradition",
-      "Myths",
-      "Cooking"
+      "space",
+      "form",
+      "texture",
+      "colour"
     ],
-    correctAnswer: "Cooking",
+    correctAnswer: "space",
     marks: 1
   },
   {
     id: 8,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Museum is a place where ______ are kept.",
+    question: "The three primary colours are __________.",
     options: [
-      "animals",
-      "historical objects",
-      "cars",
-      "soldiers"
+      "red, blue, green",
+      "red, yellow, blue",
+      "orange, green, violet",
+      "red, orange, yellow"
     ],
-    correctAnswer: "historical objects",
+    correctAnswer: "red, yellow, blue",
     marks: 1
   },
   {
     id: 9,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The people who study and write about past events are called ______.",
+    question: "The repetition of elements to create movement is called __________.",
     options: [
-      "historians",
-      "politicians",
-      "artists",
-      "teachers"
+      "rhythm",
+      "pattern",
+      "value",
+      "contrast"
     ],
-    correctAnswer: "historians",
+    correctAnswer: "rhythm",
     marks: 1
   },
   {
     id: 10,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "One importance of studying history is ______.",
+    question: "The element that describes the outline of an object is __________.",
     options: [
-      "to know our past",
-      "to forget our culture",
-      "to make us proud",
-      "to learn science"
+      "colour",
+      "shape",
+      "texture",
+      "space"
     ],
-    correctAnswer: "to know our past",
+    correctAnswer: "shape",
     marks: 1
   },
   {
     id: 11,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The earliest people to live in Nigeria were ______.",
+    question: "The principles of drawing are the __________ used to organize elements of art.",
     options: [
-      "Nok people",
-      "hunters and gatherers",
-      "farmers",
-      "traders"
+      "laws",
+      "guidelines",
+      "colours",
+      "shapes"
     ],
-    correctAnswer: "hunters and gatherers",
+    correctAnswer: "guidelines",
     marks: 1
   },
   {
     id: 12,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Early people lived in ______ shelters.",
+    question: "Which of these is a principle of drawing?",
     options: [
-      "mud houses",
-      "caves",
-      "mansions",
-      "flats"
+      "Balance",
+      "Line",
+      "Texture",
+      "Colour"
     ],
-    correctAnswer: "caves",
+    correctAnswer: "Balance",
     marks: 1
   },
   {
     id: 13,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Early people discovered fire by ______.",
+    question: "The principle that deals with size relationship between objects is __________.",
     options: [
-      "using stones",
-      "electricity",
-      "gas",
-      "wood"
+      "harmony",
+      "proportion",
+      "unity",
+      "rhythm"
     ],
-    correctAnswer: "using stones",
+    correctAnswer: "proportion",
     marks: 1
   },
   {
     id: 14,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Early people used stones and bones to make ______.",
+    question: "When elements are arranged to create stability, it is called __________.",
     options: [
-      "toys",
-      "tools",
-      "food",
-      "clothes"
+      "emphasis",
+      "balance",
+      "contrast",
+      "rhythm"
     ],
-    correctAnswer: "tools",
+    correctAnswer: "balance",
     marks: 1
   },
   {
     id: 15,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The discovery of fire helped early people to ______.",
+    question: "A drawing that looks the same on both sides is __________.",
     options: [
-      "travel",
-      "cook food",
-      "swim",
-      "sing"
+      "informal balance",
+      "asymmetrical",
+      "symmetrical",
+      "proportional"
     ],
-    correctAnswer: "cook food",
+    correctAnswer: "symmetrical",
     marks: 1
   },
   {
     id: 16,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Early people were also known as ______.",
+    question: "The use of differences to create interest in a drawing is called __________.",
     options: [
-      "modern men",
-      "primitive men",
-      "educated men",
-      "wise men"
+      "repetition",
+      "contrast",
+      "harmony",
+      "proportion"
     ],
-    correctAnswer: "primitive men",
+    correctAnswer: "contrast",
     marks: 1
   },
   {
     id: 17,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The earliest occupation of man was ______.",
+    question: "The feeling of wholeness or completeness in a design is __________.",
     options: [
-      "farming",
-      "hunting and gathering",
-      "teaching",
-      "trading"
+      "unity",
+      "emphasis",
+      "pattern",
+      "rhythm"
     ],
-    correctAnswer: "hunting and gathering",
+    correctAnswer: "unity",
     marks: 1
   },
   {
     id: 18,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Early people later settled because they began ______.",
+    question: "The principle that draws the viewer's attention to a particular area is __________.",
     options: [
-      "to farm",
-      "to travel",
-      "to fight",
-      "to dance"
+      "harmony",
+      "rhythm",
+      "emphasis",
+      "proportion"
     ],
-    correctAnswer: "to farm",
+    correctAnswer: "emphasis",
     marks: 1
   },
   {
     id: 19,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Early settlements were usually near ______.",
+    question: "The repetition of elements to create movement is known as __________.",
     options: [
-      "markets",
-      "rivers",
-      "schools",
-      "mountains"
+      "rhythm",
+      "contrast",
+      "balance",
+      "unity"
     ],
-    correctAnswer: "rivers",
+    correctAnswer: "rhythm",
     marks: 1
   },
   {
     id: 20,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "One of the characteristics of early people was ______.",
+    question: "When elements work together pleasantly, it is called __________.",
     options: [
-      "use of metal",
-      "use of simple tools",
-      "use of machines",
-      "use of engines"
+      "balance",
+      "harmony",
+      "contrast",
+      "emphasis"
     ],
-    correctAnswer: "use of simple tools",
+    correctAnswer: "harmony",
     marks: 1
   },
   {
     id: 21,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Nok culture was first discovered in ______.",
+    question: "Drawing objects from real life is called __________ drawing.",
     options: [
-      "Kano State",
-      "Kaduna State",
-      "Plateau State",
-      "Benue State"
+      "imaginative",
+      "life",
+      "abstract",
+      "memory"
     ],
-    correctAnswer: "Kaduna State",
+    correctAnswer: "life",
     marks: 1
   },
   {
     id: 22,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The name Nok came from a village in ______.",
+    question: "Objects drawn from the artist's imagination are called __________.",
     options: [
-      "Jos area",
-      "Kaduna",
-      "Minna",
-      "Ilorin"
+      "memory drawing",
+      "life drawing",
+      "imaginative drawing",
+      "observational drawing"
     ],
-    correctAnswer: "Jos area",
+    correctAnswer: "imaginative drawing",
     marks: 1
   },
   {
     id: 23,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The Nok people were famous for their ______.",
+    question: "Drawing objects as they appear in real life requires good __________.",
     options: [
-      "terracotta works",
-      "wood carvings",
-      "drawings",
-      "music"
+      "imagination",
+      "observation",
+      "memory",
+      "colour sense"
     ],
-    correctAnswer: "terracotta works",
+    correctAnswer: "observation",
     marks: 1
   },
   {
     id: 24,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Nok culture existed about ______ years ago.",
+    question: "A group of arranged objects for drawing is called a __________.",
     options: [
-      "100 years",
-      "2,000 years",
-      "500 years",
-      "5 years"
+      "pattern",
+      "still life",
+      "design",
+      "motif"
     ],
-    correctAnswer: "2,000 years",
+    correctAnswer: "still life",
     marks: 1
   },
   {
     id: 25,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The Nok people were among the first to use ______ in West Africa.",
+    question: "Which of the following is NOT a drawing material?",
     options: [
-      "iron",
-      "gold",
-      "wood",
-      "copper"
+      "Pencil",
+      "Eraser",
+      "Ruler",
+      "Paint brush"
     ],
-    correctAnswer: "iron",
+    correctAnswer: "Paint brush",
     marks: 1
   },
   {
     id: 26,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Archaeologists discovered Nok culture through ______.",
+    question: "The outline of an object is called a __________.",
     options: [
-      "oral stories",
-      "objects buried in the ground",
-      "songs",
-      "myths"
+      "contour",
+      "shape",
+      "texture",
+      "tone"
     ],
-    correctAnswer: "objects buried in the ground",
+    correctAnswer: "contour",
     marks: 1
   },
   {
     id: 27,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Nok sculptures were mainly made of ______.",
+    question: "The lightness or darkness used in shading is called __________.",
     options: [
-      "stone",
-      "clay",
-      "wood",
-      "bronze"
+      "colour",
+      "value",
+      "form",
+      "tone"
     ],
-    correctAnswer: "clay",
+    correctAnswer: "tone",
     marks: 1
   },
   {
     id: 28,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The discovery of Nok culture helped to understand Nigeria's ______.",
+    question: "The act of drawing objects as they appear in the mind is __________.",
     options: [
-      "ancient civilization",
-      "politics",
-      "religion",
-      "geography"
+      "memory drawing",
+      "imaginative drawing",
+      "life drawing",
+      "figure drawing"
     ],
-    correctAnswer: "ancient civilization",
+    correctAnswer: "memory drawing",
     marks: 1
   },
   {
     id: 29,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The Nok people were mainly ______.",
+    question: "A drawing of a person's face is called a __________.",
     options: [
-      "traders",
-      "farmers and blacksmiths",
-      "kings",
-      "teachers"
+      "landscape",
+      "portrait",
+      "still life",
+      "sketch"
     ],
-    correctAnswer: "farmers and blacksmiths",
+    correctAnswer: "portrait",
     marks: 1
   },
   {
     id: 30,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Nok terracotta figures were often shaped like ______.",
+    question: "A quick rough drawing showing an idea is called a __________.",
     options: [
-      "animals and humans",
-      "cars",
-      "trees",
-      "house"
+      "painting",
+      "sketch",
+      "tone",
+      "outline"
     ],
-    correctAnswer: "animals and humans",
+    correctAnswer: "sketch",
     marks: 1
   },
   {
     id: 31,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The Benin Kingdom was located in present-day ______.",
+    question: "Traditional Nigerian music is mostly used for __________.",
     options: [
-      "Edo State",
-      "Lagos State",
-      "Kwara State",
-      "Ogun State"
+      "sleeping",
+      "entertainment and communication",
+      "farming only",
+      "silence"
     ],
-    correctAnswer: "Edo State",
+    correctAnswer: "entertainment and communication",
     marks: 1
   },
   {
     id: 32,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The ruler of Benin was called the ______.",
+    question: "The Hausa talking drum is called __________.",
     options: [
-      "Oba",
-      "Emir",
-      "King",
-      "Chief"
+      "Bata",
+      "Dundun",
+      "Ekwe",
+      "Sakara"
     ],
-    correctAnswer: "Oba",
+    correctAnswer: "Dundun",
     marks: 1
   },
   {
     id: 33,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The Oyo Empire was founded by the ______.",
+    question: "The Yoruba talking drum is called __________.",
     options: [
-      "Yoruba people",
-      "Hausa people",
-      "Igbo people",
-      "Tiv people"
+      "Gangan",
+      "Ekwe",
+      "Igba",
+      "Udu"
     ],
-    correctAnswer: "Yoruba people",
+    correctAnswer: "Gangan",
     marks: 1
   },
   {
     id: 34,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The head of Oyo Empire was called the ______.",
+    question: "The Igbo slit drum is called __________.",
     options: [
-      "Alaafin",
-      "Oba",
-      "Emir",
-      "Sarki"
+      "Bata",
+      "Ekwe",
+      "Dundun",
+      "Gbedu"
     ],
-    correctAnswer: "Alaafin",
+    correctAnswer: "Ekwe",
     marks: 1
   },
   {
     id: 35,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The Benin people were famous for their ______.",
+    question: "Traditional Nigerian songs are often accompanied by __________.",
     options: [
-      "bronze works",
-      "songs",
-      "farming",
-      "fishing"
+      "keyboards",
+      "local instruments",
+      "electric guitars",
+      "microphones"
     ],
-    correctAnswer: "bronze works",
+    correctAnswer: "local instruments",
     marks: 1
   },
   {
     id: 36,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The Oyo Empire was known for its strong ______.",
+    question: "A person who leads traditional songs is called a __________.",
     options: [
-      "army",
-      "market",
-      "music",
-      "sea"
+      "drummer",
+      "composer",
+      "lead singer or chanter",
+      "dance"
     ],
-    correctAnswer: "army",
+    correctAnswer: "lead singer or chanter",
     marks: 1
   },
   {
     id: 37,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The council of chiefs in Oyo was called the ______.",
+    question: "Traditional Nigerian music reflects people's __________.",
     options: [
-      "Oyomesi",
-      "Ogboni",
-      "Senate",
-      "Emirate"
+      "culture and lifestyle",
+      "wealth",
+      "school system",
+      "business"
     ],
-    correctAnswer: "Oyomesi",
+    correctAnswer: "culture and lifestyle",
     marks: 1
   },
   {
     id: 38,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The Benin Kingdom traded with the ______.",
+    question: "Folk songs are usually passed down by __________.",
     options: [
-      "Europeans",
-      "Chinese",
-      "Indians",
-      "Arabs"
+      "writing",
+      "printing",
+      "oral tradition",
+      "recording"
     ],
-    correctAnswer: "Europeans",
+    correctAnswer: "oral tradition",
     marks: 1
   },
   {
     id: 39,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The Oyo Empire declined because of ______.",
+    question: "Traditional instruments are usually made from __________.",
     options: [
-      "internal wars",
-      "good leadership",
-      "farming",
-      "peace"
+      "metal and plastic",
+      "natural materials",
+      "imported parts",
+      "rubber only"
     ],
-    correctAnswer: "internal wars",
+    correctAnswer: "natural materials",
     marks: 1
   },
   {
     id: 40,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Benin art was mostly used to ______.",
+    question: "Nigerian traditional music is mainly __________ in nature.",
     options: [
-      "decorate palaces",
-      "build houses",
-      "cook",
-      "Fight"
+      "foreign",
+      "simple and rhythmic",
+      "complicated",
+      "electronic"
     ],
-    correctAnswer: "decorate palaces",
+    correctAnswer: "simple and rhythmic",
     marks: 1
   },
   {
     id: 41,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The Hausa city-states were located in ______ Nigeria.",
+    question: "Drama means __________.",
     options: [
-      "Northern",
-      "Southern",
-      "Western",
-      "Eastern"
+      "dancing on stage",
+      "acting out stories",
+      "painting pictures",
+      "singing songs"
     ],
-    correctAnswer: "Northern",
+    correctAnswer: "acting out stories",
     marks: 1
   },
   {
     id: 42,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The ruler of Hausa city-states was called the ______.",
+    question: "A written story meant for acting is called a __________.",
     options: [
-      "Sarki",
-      "Oba",
-      "Alaafin",
-      "Chief"
+      "novel",
+      "script",
+      "poem",
+      "essay"
     ],
-    correctAnswer: "Sarki",
+    correctAnswer: "script",
     marks: 1
   },
   {
     id: 43,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The Hausa city-states include ______.",
+    question: "The person who writes a play is called a __________.",
     options: [
-      "Kano, Katsina, Zaria",
-      "Ibadan, Oyo, Ife",
-      "Benin, Warri, Asaba",
-      "Nsukka, Onitsha, Owerri"
+      "playwright",
+      "actor",
+      "director",
+      "audience"
     ],
-    correctAnswer: "Kano, Katsina, Zaria",
+    correctAnswer: "playwright",
     marks: 1
   },
   {
     id: 44,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The Hausa people were known for ______.",
+    question: "Improvisation in drama means __________.",
     options: [
-      "trading",
-      "fishing",
-      "dancing",
-      "weaving"
+      "acting without preparation",
+      "memorizing lines",
+      "reading a script",
+      "drawing costumes"
     ],
-    correctAnswer: "trading",
+    correctAnswer: "acting without preparation",
     marks: 1
   },
   {
     id: 45,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The Fulani were mainly ______.",
+    question: "The people who perform in a drama are called __________.",
     options: [
-      "farmers",
-      "herdsmen",
-      "fishermen",
-      "traders"
+      "directors",
+      "audience",
+      "actors and actresses",
+      "singers"
     ],
-    correctAnswer: "herdsmen",
+    correctAnswer: "actors and actresses",
     marks: 1
   },
   {
     id: 46,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The Hausa language became popular because of ______.",
+    question: "The place where drama is performed is called a __________.",
     options: [
-      "trade",
-      "war",
-      "religion",
-      "farming"
+      "classroom",
+      "market",
+      "stage",
+      "office"
     ],
-    correctAnswer: "trade",
+    correctAnswer: "stage",
     marks: 1
   },
   {
     id: 47,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Islam was introduced to Hausa land through ______.",
+    question: "The audience refers to __________.",
     options: [
-      "trade and scholars",
-      "war",
-      "festivals",
-      "music"
+      "people acting",
+      "people watching",
+      "people writing",
+      "people dancing"
     ],
-    correctAnswer: "trade and scholars",
+    correctAnswer: "people watching",
     marks: 1
   },
   {
     id: 48,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The main occupation of the Hausa people was ______.",
+    question: "The leader who guides the actors is called the __________.",
     options: [
-      "trading",
-      "mining",
-      "teaching",
-      "dancing"
+      "scriptwriter",
+      "director",
+      "musician",
+      "manager"
     ],
-    correctAnswer: "trading",
+    correctAnswer: "director",
     marks: 1
   },
   {
     id: 49,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The Fulani and Hausa later formed the ______.",
+    question: "The use of voice, gestures, and movements on stage is called __________.",
     options: [
-      "Hausa-Fulani group",
-      "Yoruba tribe",
-      "Benin people",
-      "Igbo nation"
+      "acting",
+      "writing",
+      "dancing",
+      "improvising"
     ],
-    correctAnswer: "Hausa-Fulani group",
+    correctAnswer: "acting",
     marks: 1
   },
   {
     id: 50,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The city of Kano was known for ______.",
+    question: "A short play that teaches a moral lesson is called a __________.",
     options: [
-      "dyeing and trading",
-      "farming",
-      "fishing",
-      "singing"
+      "tragedy",
+      "comedy",
+      "sketch or playlet",
+      "opera"
     ],
-    correctAnswer: "dyeing and trading",
+    correctAnswer: "sketch or playlet",
     marks: 1
   },
   {
     id: 51,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The Igbo people lived mainly in ______ Nigeria.",
+    question: "Nigerian traditional dances are performed for __________.",
     options: [
-      "Eastern",
-      "Western",
-      "Northern",
-      "Central"
+      "foreign visitors only",
+      "ceremonies and celebrations",
+      "politics",
+      "punishment"
     ],
-    correctAnswer: "Eastern",
+    correctAnswer: "ceremonies and celebrations",
     marks: 1
   },
   {
     id: 52,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The traditional Igbo society had no ______.",
+    question: "The Yoruba dance performed during festivals is called __________.",
     options: [
-      "central king",
-      "farmers",
-      "markets",
-      "families"
+      "Bata",
+      "Swange",
+      "Koroso",
+      "Atilogwu"
     ],
-    correctAnswer: "central king",
+    correctAnswer: "Bata",
     marks: 1
   },
   {
     id: 53,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Igbo people practiced ______ system of government.",
+    question: "The Tiv people perform the __________ dance.",
     options: [
-      "republican",
-      "monarchy",
-      "dictatorship",
-      "democracy"
+      "Atilogwu",
+      "Bata",
+      "Swange",
+      "Koroso"
     ],
-    correctAnswer: "republican",
+    correctAnswer: "Swange",
     marks: 1
   },
   {
     id: 54,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The Igbo traditional title holders were called ______.",
+    question: "The Igbo energetic dance is called __________.",
     options: [
-      "Ozo and Nze",
-      "Sarki",
-      "Oba",
-      "Emir"
+      "Bata",
+      "Swange",
+      "Atilogwu",
+      "Sharo"
     ],
-    correctAnswer: "Ozo and Nze",
+    correctAnswer: "Atilogwu",
     marks: 1
   },
   {
     id: 55,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The Igbo society believed in ______.",
+    question: "The Hausa dance performed by men is called __________.",
     options: [
-      "one God called Chukwu",
-      "many kings",
-      "magic only",
-      "no god"
+      "Sharo or Koroso",
+      "Bata",
+      "Ekombi",
+      "Swange"
     ],
-    correctAnswer: "one God called Chukwu",
+    correctAnswer: "Sharo or Koroso",
     marks: 1
   },
   {
     id: 56,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The Arochukwu oracle was known as ______.",
+    question: "Dances are usually performed with __________.",
     options: [
-      "Long Juju",
-      "Great Spirit",
-      "Chief Oracle",
-      "Ala Shrine"
+      "silence",
+      "costumes and music",
+      "books",
+      "scripts"
     ],
-    correctAnswer: "Long Juju",
+    correctAnswer: "costumes and music",
     marks: 1
   },
   {
     id: 57,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "Igbo people were mainly ______.",
+    question: "The Efik and Ibibio people perform the __________ dance.",
     options: [
-      "farmers",
-      "fishermen",
-      "traders",
-      "warriors"
+      "Bata",
+      "Ekombi",
+      "Atilogwu",
+      "Swange"
     ],
-    correctAnswer: "farmers",
+    correctAnswer: "Ekombi",
     marks: 1
   },
   {
     id: 58,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The Igbo people believed in life after ______.",
+    question: "Traditional dances help to express people's __________.",
     options: [
-      "death",
-      "birth",
-      "marriage",
-      "festival"
+      "culture and beliefs",
+      "anger",
+      "laziness",
+      "sadness"
     ],
-    correctAnswer: "death",
+    correctAnswer: "culture and beliefs",
     marks: 1
   },
   {
     id: 59,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The Igbo people were known for their ______.",
+    question: "The movement of the body to the rhythm of music is called __________.",
     options: [
-      "festivals and trade",
-      "army",
-      "navy",
-      "horses"
+      "acting",
+      "painting",
+      "dance",
+      "singing"
     ],
-    correctAnswer: "festivals and trade",
+    correctAnswer: "dance",
     marks: 1
   },
   {
     id: 60,
     type: 'multiple-choice',
     subject: 'cca',
-    question: "The elders in Igbo communities were respected because they ______.",
+    question: "Nigerian dance forms are usually accompanied by __________.",
     options: [
-      "had wisdom and experience",
-      "were rich",
-      "were young",
-      "had power only"
+      "traditional music and drumming",
+      "reading and writing",
+      "speeches",
+      "foreign songs"
     ],
-    correctAnswer: "had wisdom and experience",
+    correctAnswer: "traditional music and drumming",
     marks: 1
   }
 ];

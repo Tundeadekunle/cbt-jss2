@@ -4,6 +4,7 @@ import { ccaQuestions } from './cca';
 import { scienceQuestions } from './science';
 import { socialStudiesQuestions } from './social-studies';
 import { businessQuestions } from './business';
+import { crsQuestions } from './crs';
 
 export const getQuestionsBySubject = (subject: Subject): Question[] => {
   switch (subject) {
@@ -13,6 +14,8 @@ export const getQuestionsBySubject = (subject: Subject): Question[] => {
       return businessQuestions;
     case 'cca':
       return ccaQuestions;
+      case 'crs':
+      return crsQuestions;
     case 'science':
       return scienceQuestions;
     case 'social-studies':
@@ -33,6 +36,10 @@ export const getSubjectDisplayName = (subject: Subject): string => {
       return 'History';
     case 'cca':
       return 'CCA';
+      case 'crs':
+      return 'CRS';
+      case 'business':
+      return 'Business Studies';
     case 'science':
       return 'Basic Science';
     case 'social-studies':
@@ -43,5 +50,5 @@ export const getSubjectDisplayName = (subject: Subject): string => {
 };
 
 export const getAllSubjects = (): Subject[] => {
-  return ['history', 'cca', 'science', 'social-studies'];
+  return ['history', 'cca', 'crs', 'science', 'business', 'social-studies'];
 };

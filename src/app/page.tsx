@@ -229,7 +229,7 @@ export default function HomePage() {
                     <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                       <span className="text-green-600 text-sm font-bold">1</span>
                     </div>
-                    <p className="text-gray-700">Total duration: <strong>2 hours (120 minutes)</strong></p>
+                    <p className="text-gray-700">Total duration: <strong>1 hour (60 minutes)</strong></p>
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
