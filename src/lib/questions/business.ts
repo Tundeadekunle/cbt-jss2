@@ -1,845 +1,844 @@
 import { Question } from '@/types';
 
 export const businessQuestions: Question[] = [
-  // Section A: Multiple Choice Questions (60 Questions)
   {
     id: 1,
     type: 'multiple-choice',
     subject: 'business',
-    question: "History is the study of ______.",
+    question: "business can best be defined as the process that deals with _______.",
     options: [
-      "the past events",
-      "the future",
-      "mathematics",
-      "science"
+      "Production only",
+      "Distribution and exchange of goods and services",
+      "Manufacturing only",
+      "Agriculture"
     ],
-    correctAnswer: "the past events",
+    correctAnswer: "Distribution and exchange of goods and services",
     marks: 1
   },
   {
     id: 2,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The word 'history' comes from the Greek word 'Historia' meaning ______.",
+    question: "The main purpose of business is to _______.",
     options: [
-      "story",
-      "inquiry",
-      "record",
-      "tradition"
+      "Create employment",
+      "Make goods available to consumers",
+      "Store goods in warehouses",
+      "Advertise products"
     ],
-    correctAnswer: "inquiry",
+    correctAnswer: "Make goods available to consumers",
     marks: 1
   },
   {
     id: 3,
     type: 'multiple-choice',
     subject: 'business',
-    question: "One of the sources of history is ______.",
+    question: "The two main branches of business are _______.",
     options: [
-      "songs",
-      "oral tradition",
-      "magic",
-      "imagination"
+      "Trade and aids to trade",
+      "Industry and production",
+      "Wholesale and retail",
+      "Import and export"
     ],
-    correctAnswer: "oral tradition",
+    correctAnswer: "Trade and aids to trade",
     marks: 1
   },
   {
     id: 4,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Written sources of history include ______.",
+    question: "business bridges the gap between _______.",
     options: [
-      "folktales",
-      "textbooks",
-      "proverbs",
-      "carvings"
+      "Producers and consumers",
+      "Buyers and sellers only",
+      "Factory and warehouse",
+      "Money and goods"
     ],
-    correctAnswer: "textbooks",
+    correctAnswer: "Producers and consumers",
     marks: 1
   },
   {
     id: 5,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Archaeology deals with ______.",
+    question: "Which of the following is NOT a component of business?",
     options: [
-      "study of birds",
-      "study of human past through remains",
-      "study of stars",
-      "study of weather"
+      "Banking",
+      "Insurance",
+      "Manufacturing",
+      "Transportation"
     ],
-    correctAnswer: "study of human past through remains",
+    correctAnswer: "Manufacturing",
     marks: 1
   },
   {
     id: 6,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Oral tradition means history passed down by ______.",
+    question: "business makes goods available at the _______.",
     options: [
-      "writing",
-      "speaking",
-      "acting",
-      "dancing"
+      "Right place and time",
+      "Cheapest price only",
+      "Factory gate",
+      "Warehouse only"
     ],
-    correctAnswer: "speaking",
+    correctAnswer: "Right place and time",
     marks: 1
   },
   {
     id: 7,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Which of the following is NOT a source of history?",
+    question: "Which of the following best describes business?",
     options: [
-      "Archaeology",
-      "Oral tradition",
-      "Myths",
-      "Cooking"
+      "Buying and selling only",
+      "Exchange and distribution of goods and services",
+      "Money lending",
+      "Production of raw materials"
     ],
-    correctAnswer: "Cooking",
+    correctAnswer: "Exchange and distribution of goods and services",
     marks: 1
   },
   {
     id: 8,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Museum is a place where ______ are kept.",
+    question: "business helps in improving _______.",
     options: [
-      "animals",
-      "historical objects",
-      "cars",
-      "soldiers"
+      "Social relationships",
+      "The standard of living",
+      "Agricultural production only",
+      "Education"
     ],
-    correctAnswer: "historical objects",
+    correctAnswer: "The standard of living",
     marks: 1
   },
   {
     id: 9,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The people who study and write about past events are called ______.",
+    question: "Which of these is NOT part of business?",
     options: [
-      "historians",
-      "politicians",
-      "artists",
-      "teachers"
+      "Transport",
+      "Banking",
+      "Industry",
+      "Advertising"
     ],
-    correctAnswer: "historians",
+    correctAnswer: "Industry",
     marks: 1
   },
   {
     id: 10,
     type: 'multiple-choice',
     subject: 'business',
-    question: "One importance of studying history is ______.",
+    question: "The removal of barriers between producers and consumers is achieved by _______.",
     options: [
-      "to know our past",
-      "to forget our culture",
-      "to make us proud",
-      "to learn science"
+      "business",
+      "Manufacturing",
+      "Government",
+      "Agriculture"
     ],
-    correctAnswer: "to know our past",
+    correctAnswer: "business",
     marks: 1
   },
   {
     id: 11,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The earliest people to live in Nigeria were ______.",
+    question: "business involves both _______.",
     options: [
-      "Nok people",
-      "hunters and gatherers",
-      "farmers",
-      "traders"
+      "Trade and banking",
+      "Trade and aids to trade",
+      "Production and construction",
+      "Industry and mining"
     ],
-    correctAnswer: "hunters and gatherers",
+    correctAnswer: "Trade and aids to trade",
     marks: 1
   },
   {
     id: 12,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Early people lived in ______ shelters.",
+    question: "Which of the following is an example of a service industry?",
     options: [
-      "mud houses",
-      "caves",
-      "mansions",
-      "flats"
+      "Farming",
+      "Teaching",
+      "Mining",
+      "Fishing"
     ],
-    correctAnswer: "caves",
+    correctAnswer: "Teaching",
     marks: 1
   },
   {
     id: 13,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Early people discovered fire by ______.",
+    question: "The two main divisions of business are _______.",
     options: [
-      "using stones",
-      "electricity",
-      "gas",
-      "wood"
+      "Industry and production",
+      "Trade and aids to trade",
+      "Agriculture and manufacturing",
+      "Import and export"
     ],
-    correctAnswer: "using stones",
+    correctAnswer: "Trade and aids to trade",
     marks: 1
   },
   {
     id: 14,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Early people used stones and bones to make ______.",
+    question: "Trade involves _______.",
     options: [
-      "toys",
-      "tools",
-      "food",
-      "clothes"
+      "Buying and selling of goods and services",
+      "Moving goods from one place to another",
+      "Advertising goods",
+      "Storing goods"
     ],
-    correctAnswer: "tools",
+    correctAnswer: "Buying and selling of goods and services",
     marks: 1
   },
   {
     id: 15,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The discovery of fire helped early people to ______.",
+    question: "Aids to trade are activities that _______.",
     options: [
-      "travel",
-      "cook food",
-      "swim",
-      "sing"
+      "Replace trade",
+      "Support trade",
+      "Stop trade",
+      "Delay trade"
     ],
-    correctAnswer: "cook food",
+    correctAnswer: "Support trade",
     marks: 1
   },
   {
     id: 16,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Early people were also known as ______.",
+    question: "Which of the following is a division of business?",
     options: [
-      "modern men",
-      "primitive men",
-      "educated men",
-      "wise men"
+      "Insurance",
+      "Retail",
+      "Industry",
+      "Construction"
     ],
-    correctAnswer: "primitive men",
+    correctAnswer: "Retail",
     marks: 1
   },
   {
     id: 17,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The earliest occupation of man was ______.",
+    question: "Retail trade is concerned with _______.",
     options: [
-      "farming",
-      "hunting and gathering",
-      "teaching",
-      "trading"
+      "Selling goods to the final consumer",
+      "Selling goods in bulk",
+      "Exporting goods",
+      "Advertising goods"
     ],
-    correctAnswer: "hunting and gathering",
+    correctAnswer: "Selling goods to the final consumer",
     marks: 1
   },
   {
     id: 18,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Early people later settled because they began ______.",
+    question: "The wholesaler serves as a link between _______.",
     options: [
-      "to farm",
-      "to travel",
-      "to fight",
-      "to dance"
+      "Producer and retailer",
+      "Retailer and consumer",
+      "Government and producer",
+      "Importer and exporter"
     ],
-    correctAnswer: "to farm",
+    correctAnswer: "Producer and retailer",
     marks: 1
   },
   {
     id: 19,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Early settlements were usually near ______.",
+    question: "Which of these is NOT an aid to trade?",
     options: [
-      "markets",
-      "rivers",
-      "schools",
-      "mountains"
+      "Transport",
+      "Insurance",
+      "Communication",
+      "Farming"
     ],
-    correctAnswer: "rivers",
+    correctAnswer: "Farming",
     marks: 1
   },
   {
     id: 20,
     type: 'multiple-choice',
     subject: 'business',
-    question: "One of the characteristics of early people was ______.",
+    question: "The division of business that deals with storage is _______.",
     options: [
-      "use of metal",
-      "use of simple tools",
-      "use of machines",
-      "use of engines"
+      "Advertising",
+      "Warehousing",
+      "Banking",
+      "Insurance"
     ],
-    correctAnswer: "use of simple tools",
+    correctAnswer: "Warehousing",
     marks: 1
   },
   {
     id: 21,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Nok culture was first discovered in ______.",
+    question: "The flow of goods from producer to consumer follows which correct order?",
     options: [
-      "Kano State",
-      "Kaduna State",
-      "Plateau State",
-      "Benue State"
+      "Producer → Consumer",
+      "Producer → Wholesaler → Retailer → Consumer",
+      "Retailer → Producer → Consumer",
+      "Consumer → Producer"
     ],
-    correctAnswer: "Kaduna State",
+    correctAnswer: "Producer → Wholesaler → Retailer → Consumer",
     marks: 1
   },
   {
     id: 22,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The name Nok came from a village in ______.",
+    question: "Communication aids trade by _______.",
     options: [
-      "Jos area",
-      "Kaduna",
-      "Minna",
-      "Ilorin"
+      "Reducing distance",
+      "Providing information",
+      "Increasing transport cost",
+      "Producing goods"
     ],
-    correctAnswer: "Jos area",
+    correctAnswer: "Providing information",
     marks: 1
   },
   {
     id: 23,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Nok people were famous for their ______.",
+    question: "Which of the following divisions of business ensures safety of goods in transit?",
     options: [
-      "terracotta works",
-      "wood carvings",
-      "drawings",
-      "music"
+      "Insurance",
+      "Transport",
+      "Warehousing",
+      "Advertising"
     ],
-    correctAnswer: "terracotta works",
+    correctAnswer: "Insurance",
     marks: 1
   },
   {
     id: 24,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Nok culture existed about ______ years ago.",
+    question: "Which of these is the main aim of the division of business?",
     options: [
-      "100 years",
-      "2,000 years",
-      "500 years",
-      "5 years"
+      "To move goods to consumers easily",
+      "To promote sports",
+      "To provide entertainment",
+      "To manufacture goods"
     ],
-    correctAnswer: "2,000 years",
+    correctAnswer: "To move goods to consumers easily",
     marks: 1
   },
   {
     id: 25,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Nok people were among the first to use ______ in West Africa.",
+    question: "Trade that takes place within a country is known as _______.",
     options: [
-      "iron",
-      "gold",
-      "wood",
-      "copper"
+      "Foreign trade",
+      "International trade",
+      "Home trade",
+      "Global trade"
     ],
-    correctAnswer: "iron",
+    correctAnswer: "Home trade",
     marks: 1
   },
   {
     id: 26,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Archaeologists discovered Nok culture through ______.",
+    question: "The two main types of home trade are _______.",
     options: [
-      "oral stories",
-      "objects buried in the ground",
-      "songs",
-      "myths"
+      "Import and export",
+      "Wholesale and retail",
+      "Import and re-export",
+      "Local and international"
     ],
-    correctAnswer: "objects buried in the ground",
+    correctAnswer: "Wholesale and retail",
     marks: 1
   },
   {
     id: 27,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Nok sculptures were mainly made of ______.",
+    question: "Foreign trade involves _______.",
     options: [
-      "stone",
-      "clay",
-      "wood",
-      "bronze"
+      "Buying and selling within a country",
+      "Exchange of goods between countries",
+      "Buying only foreign goods",
+      "Selling to local markets"
     ],
-    correctAnswer: "clay",
+    correctAnswer: "Exchange of goods between countries",
     marks: 1
   },
   {
     id: 28,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The discovery of Nok culture helped to understand Nigeria's ______.",
+    question: "Import trade means _______.",
     options: [
-      "ancient civilization",
-      "politics",
-      "religion",
-      "geography"
+      "Selling goods to another country",
+      "Bringing goods into a country",
+      "Selling to consumers",
+      "Manufacturing for export"
     ],
-    correctAnswer: "ancient civilization",
+    correctAnswer: "Bringing goods into a country",
     marks: 1
   },
   {
     id: 29,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Nok people were mainly ______.",
+    question: "Export trade means _______.",
     options: [
-      "traders",
-      "farmers and blacksmiths",
-      "kings",
-      "teachers"
+      "Buying goods from abroad",
+      "Selling goods to other countries",
+      "Selling goods locally",
+      "Storing goods in warehouses"
     ],
-    correctAnswer: "farmers and blacksmiths",
+    correctAnswer: "Selling goods to other countries",
     marks: 1
   },
   {
     id: 30,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Nok terracotta figures were often shaped like ______.",
+    question: "The re-export of goods means _______.",
     options: [
-      "animals and humans",
-      "cars",
-      "trees",
-      "house"
+      "Exporting goods already imported",
+      "Importing goods from local markets",
+      "Selling goods locally",
+      "Keeping goods in warehouses"
     ],
-    correctAnswer: "animals and humans",
+    correctAnswer: "Exporting goods already imported",
     marks: 1
   },
   {
     id: 31,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Benin Kingdom was located in present-day ______.",
+    question: "A Nigerian exporting cocoa to the UK is involved in _______.",
     options: [
-      "Edo State",
-      "Lagos State",
-      "Kwara State",
-      "Ogun State"
+      "Import trade",
+      "Export trade",
+      "Wholesale trade",
+      "Retail trade"
     ],
-    correctAnswer: "Edo State",
+    correctAnswer: "Export trade",
     marks: 1
   },
   {
     id: 32,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The ruler of Benin was called the ______.",
+    question: "Goods bought from another country are called _______.",
     options: [
-      "Oba",
-      "Emir",
-      "King",
-      "Chief"
+      "Exports",
+      "Imports",
+      "Retails",
+      "Wholesales"
     ],
-    correctAnswer: "Oba",
+    correctAnswer: "Imports",
     marks: 1
   },
   {
     id: 33,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Oyo Empire was founded by the ______.",
+    question: "Home trade consists of _______.",
     options: [
-      "Yoruba people",
-      "Hausa people",
-      "Igbo people",
-      "Tiv people"
+      "Import and export trade",
+      "Wholesale and retail trade",
+      "Import and re-export",
+      "Buying and advertising"
     ],
-    correctAnswer: "Yoruba people",
+    correctAnswer: "Wholesale and retail trade",
     marks: 1
   },
   {
     id: 34,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The head of Oyo Empire was called the ______.",
+    question: "Foreign trade can also be called _______.",
     options: [
-      "Alaafin",
-      "Oba",
-      "Emir",
-      "Sarki"
+      "Local trade",
+      "International trade",
+      "Domestic trade",
+      "Internal trade"
     ],
-    correctAnswer: "Alaafin",
+    correctAnswer: "International trade",
     marks: 1
   },
   {
     id: 35,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Benin people were famous for their ______.",
+    question: "Trade that helps a country to earn foreign exchange is _______.",
     options: [
-      "bronze works",
-      "songs",
-      "farming",
-      "fishing"
+      "Import trade",
+      "Export trade",
+      "Home trade",
+      "Retail trade"
     ],
-    correctAnswer: "bronze works",
+    correctAnswer: "Export trade",
     marks: 1
   },
   {
     id: 36,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Oyo Empire was known for its strong ______.",
+    question: "Importers pay _______ when goods arrive from other countries.",
     options: [
-      "army",
-      "market",
-      "music",
-      "sea"
+      "Rent",
+      "Customs duties",
+      "Interest",
+      "Tax"
     ],
-    correctAnswer: "army",
+    correctAnswer: "Customs duties",
     marks: 1
   },
   {
     id: 37,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The council of chiefs in Oyo was called the ______.",
+    question: "A bank is an institution that deals with _______.",
     options: [
-      "Oyomesi",
-      "Ogboni",
-      "Senate",
-      "Emirate"
+      "Money and financial transactions",
+      "Only loans",
+      "Goods and services",
+      "Advertising"
     ],
-    correctAnswer: "Oyomesi",
+    correctAnswer: "Money and financial transactions",
     marks: 1
   },
   {
     id: 38,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Benin Kingdom traded with the ______.",
+    question: "The main function of a bank is to _______.",
     options: [
-      "Europeans",
-      "Chinese",
-      "Indians",
-      "Arabs"
+      "Store goods",
+      "Accept deposits and grant loans",
+      "Transport money",
+      "Advertise savings"
     ],
-    correctAnswer: "Europeans",
+    correctAnswer: "Accept deposits and grant loans",
     marks: 1
   },
   {
     id: 39,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Oyo Empire declined because of ______.",
+    question: "Which of the following is NOT a type of bank?",
     options: [
-      "internal wars",
-      "good leadership",
-      "farming",
-      "peace"
+      "Central bank",
+      "Commercial bank",
+      "Agricultural bank",
+      "Manufacturing bank"
     ],
-    correctAnswer: "internal wars",
+    correctAnswer: "Manufacturing bank",
     marks: 1
   },
   {
     id: 40,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Benin art was mostly used to ______.",
+    question: "The Central Bank is the _______.",
     options: [
-      "decorate palaces",
-      "build houses",
-      "cook",
-      "Fight"
+      "Banker to the government",
+      "Banker to individuals",
+      "Retail bank",
+      "Loan officer"
     ],
-    correctAnswer: "decorate palaces",
+    correctAnswer: "Banker to the government",
     marks: 1
   },
   {
     id: 41,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Hausa city-states were located in ______ Nigeria.",
+    question: "Which bank issues currency in a country?",
     options: [
-      "Northern",
-      "Southern",
-      "Western",
-      "Eastern"
+      "Commercial bank",
+      "Central bank",
+      "Agricultural bank",
+      "Cooperative bank"
     ],
-    correctAnswer: "Northern",
+    correctAnswer: "Central bank",
     marks: 1
   },
   {
     id: 42,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The ruler of Hausa city-states was called the ______.",
+    question: "Commercial banks help business by _______.",
     options: [
-      "Sarki",
-      "Oba",
-      "Alaafin",
-      "Chief"
+      "Giving loans to traders",
+      "Building roads",
+      "Growing crops",
+      "Producing goods"
     ],
-    correctAnswer: "Sarki",
+    correctAnswer: "Giving loans to traders",
     marks: 1
   },
   {
     id: 43,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Hausa city-states include ______.",
+    question: "The means by which money can be withdrawn easily from banks is _______.",
     options: [
-      "Kano, Katsina, Zaria",
-      "Ibadan, Oyo, Ife",
-      "Benin, Warri, Asaba",
-      "Nsukka, Onitsha, Owerri"
+      "Cheque",
+      "Receipt",
+      "Token",
+      "Invoice"
     ],
-    correctAnswer: "Kano, Katsina, Zaria",
+    correctAnswer: "Cheque",
     marks: 1
   },
   {
     id: 44,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Hausa people were known for ______.",
+    question: "A current account is mostly used by _______.",
     options: [
-      "trading",
-      "fishing",
-      "dancing",
-      "weaving"
+      "Students",
+      "Businessmen",
+      "Pensioners",
+      "Farmers"
     ],
-    correctAnswer: "trading",
+    correctAnswer: "Businessmen",
     marks: 1
   },
   {
     id: 45,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Fulani were mainly ______.",
+    question: "The type of account that earns interest is _______.",
     options: [
-      "farmers",
-      "herdsmen",
-      "fishermen",
-      "traders"
+      "Current account",
+      "Savings account",
+      "Overdraft account",
+      "Cheque account"
     ],
-    correctAnswer: "herdsmen",
+    correctAnswer: "Savings account",
     marks: 1
   },
   {
     id: 46,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Hausa language became popular because of ______.",
+    question: "The Central Bank controls other banks through _______.",
     options: [
-      "trade",
-      "war",
-      "religion",
-      "farming"
+      "Supervision and regulation",
+      "Advertising",
+      "Lending to individuals",
+      "Selling goods"
     ],
-    correctAnswer: "trade",
+    correctAnswer: "Supervision and regulation",
     marks: 1
   },
   {
     id: 47,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Islam was introduced to Hausa land through ______.",
+    question: "One of the functions of commercial banks is _______.",
     options: [
-      "trade and scholars",
-      "war",
-      "festivals",
-      "music"
+      "Accepting deposits",
+      "Issuing currency",
+      "Supervising other banks",
+      "Making laws"
     ],
-    correctAnswer: "trade and scholars",
+    correctAnswer: "Accepting deposits",
     marks: 1
   },
   {
     id: 48,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The main occupation of the Hausa people was ______.",
+    question: "Which of the following is NOT a service provided by banks?",
     options: [
-      "trading",
-      "mining",
-      "teaching",
-      "dancing"
+      "Accepting deposits",
+      "Granting loans",
+      "Growing crops",
+      "Transferring money"
     ],
-    correctAnswer: "trading",
+    correctAnswer: "Growing crops",
     marks: 1
   },
   {
     id: 49,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Fulani and Hausa later formed the ______.",
+    question: "Consumer education teaches people how to _______.",
     options: [
-      "Hausa-Fulani group",
-      "Yoruba tribe",
-      "Benin people",
-      "Igbo nation"
+      "Produce goods",
+      "Make wise buying decisions",
+      "Save the environment",
+      "Advertise goods"
     ],
-    correctAnswer: "Hausa-Fulani group",
+    correctAnswer: "Make wise buying decisions",
     marks: 1
   },
   {
     id: 50,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The city of Kano was known for ______.",
+    question: "The main aim of consumer education is to _______.",
     options: [
-      "dyeing and trading",
-      "farming",
-      "fishing",
-      "singing"
+      "Protect consumers' rights",
+      "Promote producers",
+      "Increase prices",
+      "Discourage sales"
     ],
-    correctAnswer: "dyeing and trading",
+    correctAnswer: "Protect consumers' rights",
     marks: 1
   },
   {
     id: 51,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Igbo people lived mainly in ______ Nigeria.",
+    question: "A well-informed consumer is one who _______.",
     options: [
-      "Eastern",
-      "Western",
-      "Northern",
-      "Central"
+      "Buys anything advertised",
+      "Knows his rights and responsibilities",
+      "Always buys imported goods",
+      "Ignores product labels"
     ],
-    correctAnswer: "Eastern",
+    correctAnswer: "Knows his rights and responsibilities",
     marks: 1
   },
   {
     id: 52,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The traditional Igbo society had no ______.",
+    question: "Consumer education helps people to avoid _______.",
     options: [
-      "central king",
-      "farmers",
-      "markets",
-      "families"
+      "Buying fake goods",
+      "Buying quality goods",
+      "Comparing prices",
+      "Making savings"
     ],
-    correctAnswer: "central king",
+    correctAnswer: "Buying fake goods",
     marks: 1
   },
   {
     id: 53,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Igbo people practiced ______ system of government.",
+    question: "One of the benefits of consumer education is _______.",
     options: [
-      "republican",
-      "monarchy",
-      "dictatorship",
-      "democracy"
+      "Reducing fraud and exploitation",
+      "Promoting wastefulness",
+      "Increasing ignorance",
+      "Discouraging savings"
     ],
-    correctAnswer: "republican",
+    correctAnswer: "Reducing fraud and exploitation",
     marks: 1
   },
   {
     id: 54,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Igbo traditional title holders were called ______.",
+    question: "A consumer who reads product labels before buying is said to be _______.",
     options: [
-      "Ozo and Nze",
-      "Sarki",
-      "Oba",
-      "Emir"
+      "Careless",
+      "Educated",
+      "Wasteful",
+      "Lazy"
     ],
-    correctAnswer: "Ozo and Nze",
+    correctAnswer: "Educated",
     marks: 1
   },
   {
     id: 55,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Igbo society believed in ______.",
+    question: "Consumer education creates awareness about _______.",
     options: [
-      "one God called Chukwu",
-      "many kings",
-      "magic only",
-      "no god"
+      "Producers' profits",
+      "Consumer rights",
+      "Advertisement laws",
+      "Store management"
     ],
-    correctAnswer: "one God called Chukwu",
+    correctAnswer: "Consumer rights",
     marks: 1
   },
   {
     id: 56,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Arochukwu oracle was known as ______.",
+    question: "One of the rights of consumers is the right to _______.",
     options: [
-      "Long Juju",
-      "Great Spirit",
-      "Chief Oracle",
-      "Ala Shrine"
+      "Safety and quality products",
+      "Produce goods",
+      "Sell goods",
+      "Fix prices"
     ],
-    correctAnswer: "Long Juju",
+    correctAnswer: "Safety and quality products",
     marks: 1
   },
   {
     id: 57,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Igbo people were mainly ______.",
+    question: "Consumer education helps to develop _______.",
     options: [
-      "farmers",
-      "fishermen",
-      "traders",
-      "warriors"
+      "Self-reliance and wise spending habits",
+      "Ignorance of market prices",
+      "High consumption",
+      "Dishonesty"
     ],
-    correctAnswer: "farmers",
+    correctAnswer: "Self-reliance and wise spending habits",
     marks: 1
   },
   {
     id: 58,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Igbo people believed in life after ______.",
+    question: "A consumer complaint can be made when _______.",
     options: [
-      "death",
-      "birth",
-      "marriage",
-      "festival"
+      "Goods are faulty or substandard",
+      "Prices are low",
+      "Products are imported",
+      "Goods are advertised"
     ],
-    correctAnswer: "death",
+    correctAnswer: "Goods are faulty or substandard",
     marks: 1
   },
   {
     id: 59,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The Igbo people were known for their ______.",
+    question: "Which government agency protects consumer interests in Nigeria?",
     options: [
-      "festivals and trade",
-      "army",
-      "navy",
-      "horses"
+      "NAFDAC",
+      "NNPC",
+      "NCC",
+      "WAEC"
     ],
-    correctAnswer: "festivals and trade",
+    correctAnswer: "NAFDAC",
     marks: 1
   },
   {
     id: 60,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The elders in Igbo communities were respected because they ______.",
+    question: "Consumer education can be taught through _______.",
     options: [
-      "had wisdom and experience",
-      "were rich",
-      "were young",
-      "had power only"
+      "Schools, media, and seminars",
+      "Only the market",
+      "Family alone",
+      "Churches only"
     ],
-    correctAnswer: "had wisdom and experience",
+    correctAnswer: "Schools, media, and seminars",
     marks: 1
   }
 ];
