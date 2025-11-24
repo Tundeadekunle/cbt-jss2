@@ -5,7 +5,7 @@ export const crsQuestions: Question[] = [
   {
     id: 1,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Who was Abraham's father?",
     options: [
       "Nahor",
@@ -19,7 +19,7 @@ export const crsQuestions: Question[] = [
   {
     id: 2,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Where was Abraham living when God first called him?",
     options: [
       "Egypt",
@@ -33,7 +33,7 @@ export const crsQuestions: Question[] = [
   {
     id: 3,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What did God tell Abraham to do when He called him?",
     options: [
       "Build an altar",
@@ -47,7 +47,7 @@ export const crsQuestions: Question[] = [
   {
     id: 4,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What did God promise to make Abraham?",
     options: [
       "A great king",
@@ -61,7 +61,7 @@ export const crsQuestions: Question[] = [
   {
     id: 5,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What did God promise to do to those who cursed Abraham?",
     options: [
       "Bless them",
@@ -75,7 +75,7 @@ export const crsQuestions: Question[] = [
   {
     id: 6,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "How old was Abraham when he left Haran?",
     options: [
       "50 years",
@@ -89,7 +89,7 @@ export const crsQuestions: Question[] = [
   {
     id: 7,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Who went with Abraham when he left Haran?",
     options: [
       "His brother Nahor",
@@ -103,7 +103,7 @@ export const crsQuestions: Question[] = [
   {
     id: 8,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What land did God promise to give Abraham's descendants?",
     options: [
       "Egypt",
@@ -117,7 +117,7 @@ export const crsQuestions: Question[] = [
   {
     id: 9,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What did Abraham build to the Lord at Shechem and Bethel?",
     options: [
       "A temple",
@@ -131,7 +131,7 @@ export const crsQuestions: Question[] = [
   {
     id: 10,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What did Abraham do after God appeared to him?",
     options: [
       "Complained",
@@ -145,7 +145,7 @@ export const crsQuestions: Question[] = [
   {
     id: 11,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What did God promise Abraham as part of His covenant?",
     options: [
       "Long life only",
@@ -159,7 +159,7 @@ export const crsQuestions: Question[] = [
   {
     id: 12,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What was the sign of the covenant between God and Abraham?",
     options: [
       "Rainbow",
@@ -173,7 +173,7 @@ export const crsQuestions: Question[] = [
   {
     id: 13,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "How old was Abraham when God established the covenant of circumcision?",
     options: [
       "70 years",
@@ -187,7 +187,7 @@ export const crsQuestions: Question[] = [
   {
     id: 14,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What did God change Abram's name to?",
     options: [
       "Abinadab",
@@ -201,7 +201,7 @@ export const crsQuestions: Question[] = [
   {
     id: 15,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What did Sarai's name become?",
     options: [
       "Sarah",
@@ -215,7 +215,7 @@ export const crsQuestions: Question[] = [
   {
     id: 16,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What did God promise Sarah?",
     options: [
       "She would bear a son",
@@ -229,7 +229,7 @@ export const crsQuestions: Question[] = [
   {
     id: 17,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Who was the son born to Abraham and Sarah?",
     options: [
       "Ishmael",
@@ -243,7 +243,7 @@ export const crsQuestions: Question[] = [
   {
     id: 18,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What did Abraham do to show his faith in God's covenant?",
     options: [
       "He built an ark",
@@ -257,7 +257,7 @@ export const crsQuestions: Question[] = [
   {
     id: 19,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What did Abraham use to seal the covenant with God in Genesis 15?",
     options: [
       "Silver and gold",
@@ -271,7 +271,7 @@ export const crsQuestions: Question[] = [
   {
     id: 20,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What did God tell Abraham his descendants would be before inheriting the land?",
     options: [
       "Slaves in a foreign land for 400 years",
@@ -285,7 +285,7 @@ export const crsQuestions: Question[] = [
   {
     id: 21,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What relationship was Lot to Abraham?",
     options: [
       "Brother",
@@ -299,7 +299,7 @@ export const crsQuestions: Question[] = [
   {
     id: 22,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Why did Abraham and Lot separate?",
     options: [
       "They fought over inheritance",
@@ -313,7 +313,7 @@ export const crsQuestions: Question[] = [
   {
     id: 23,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What land did Lot choose?",
     options: [
       "Canaan",
@@ -327,7 +327,7 @@ export const crsQuestions: Question[] = [
   {
     id: 24,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What land did Abraham live in after Lot departed?",
     options: [
       "Egypt",
@@ -341,7 +341,7 @@ export const crsQuestions: Question[] = [
   {
     id: 25,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What happened to Sodom and Gomorrah, where Lot lived?",
     options: [
       "They prospered greatly",
@@ -355,7 +355,7 @@ export const crsQuestions: Question[] = [
   {
     id: 26,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Who warned Lot before Sodom's destruction?",
     options: [
       "Abraham",
@@ -369,7 +369,7 @@ export const crsQuestions: Question[] = [
   {
     id: 27,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Who looked back and became a pillar of salt?",
     options: [
       "Lot",
@@ -383,7 +383,7 @@ export const crsQuestions: Question[] = [
   {
     id: 28,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What did Abraham do when he learned God planned to destroy Sodom?",
     options: [
       "Rejoiced",
@@ -397,7 +397,7 @@ export const crsQuestions: Question[] = [
   {
     id: 29,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "How many righteous people did Abraham finally ask God to spare Sodom for?",
     options: [
       "5",
@@ -411,7 +411,7 @@ export const crsQuestions: Question[] = [
   {
     id: 30,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Where did Lot go after escaping Sodom?",
     options: [
       "Egypt",
@@ -425,7 +425,7 @@ export const crsQuestions: Question[] = [
   {
     id: 31,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Who were the parents of Jacob and Esau?",
     options: [
       "Abraham and Sarah",
@@ -439,7 +439,7 @@ export const crsQuestions: Question[] = [
   {
     id: 32,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Who was born first?",
     options: [
       "Jacob",
@@ -451,7 +451,7 @@ export const crsQuestions: Question[] = [
   {
     id: 33,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What did Esau sell his birthright for?",
     options: [
       "Money",
@@ -465,7 +465,7 @@ export const crsQuestions: Question[] = [
   {
     id: 34,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Who helped Jacob deceive Isaac for the blessing?",
     options: [
       "Esau",
@@ -479,7 +479,7 @@ export const crsQuestions: Question[] = [
   {
     id: 35,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What was Isaac's reaction when he discovered Jacob's deception?",
     options: [
       "He blessed Jacob again",
@@ -493,7 +493,7 @@ export const crsQuestions: Question[] = [
   {
     id: 36,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Where did Jacob flee to after deceiving Esau?",
     options: [
       "Egypt",
@@ -507,7 +507,7 @@ export const crsQuestions: Question[] = [
   {
     id: 37,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Who did Jacob work for in Haran?",
     options: [
       "Terah",
@@ -521,7 +521,7 @@ export const crsQuestions: Question[] = [
   {
     id: 38,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What was the name of the place where Jacob saw a ladder reaching to heaven?",
     options: [
       "Bethel",
@@ -535,7 +535,7 @@ export const crsQuestions: Question[] = [
   {
     id: 39,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "How many years did Jacob work for Rachel?",
     options: [
       "7 years",
@@ -549,7 +549,7 @@ export const crsQuestions: Question[] = [
   {
     id: 40,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What new name did God give Jacob?",
     options: [
       "Abraham",
@@ -563,7 +563,7 @@ export const crsQuestions: Question[] = [
   {
     id: 41,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Who was Joseph's father?",
     options: [
       "Isaac",
@@ -577,7 +577,7 @@ export const crsQuestions: Question[] = [
   {
     id: 42,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What special gift did Jacob give Joseph?",
     options: [
       "Gold ring",
@@ -591,7 +591,7 @@ export const crsQuestions: Question[] = [
   {
     id: 43,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Why did Joseph's brothers hate him?",
     options: [
       "He was lazy",
@@ -605,7 +605,7 @@ export const crsQuestions: Question[] = [
   {
     id: 44,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Into what was Joseph thrown by his brothers?",
     options: [
       "A pit",
@@ -619,7 +619,7 @@ export const crsQuestions: Question[] = [
   {
     id: 45,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Who suggested selling Joseph instead of killing him?",
     options: [
       "Reuben",
@@ -633,7 +633,7 @@ export const crsQuestions: Question[] = [
   {
     id: 46,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "To whom did Joseph's brothers sell him?",
     options: [
       "Canaanites",
@@ -647,7 +647,7 @@ export const crsQuestions: Question[] = [
   {
     id: 47,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Who bought Joseph in Egypt?",
     options: [
       "Pharaoh",
@@ -661,7 +661,7 @@ export const crsQuestions: Question[] = [
   {
     id: 48,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Why was Joseph thrown into prison?",
     options: [
       "He stole money",
@@ -675,7 +675,7 @@ export const crsQuestions: Question[] = [
   {
     id: 49,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Whose dreams did Joseph interpret in prison?",
     options: [
       "Pharaoh's",
@@ -689,7 +689,7 @@ export const crsQuestions: Question[] = [
   {
     id: 50,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What did Pharaoh dream of that Joseph interpreted?",
     options: [
       "Stars and moon",
@@ -703,7 +703,7 @@ export const crsQuestions: Question[] = [
   {
     id: 51,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What position did Pharaoh give Joseph?",
     options: [
       "Servant",
@@ -717,7 +717,7 @@ export const crsQuestions: Question[] = [
   {
     id: 52,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "How old was Joseph when he entered Pharaoh's service?",
     options: [
       "17",
@@ -731,7 +731,7 @@ export const crsQuestions: Question[] = [
   {
     id: 53,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What did Joseph store during the seven years of plenty?",
     options: [
       "Gold and silver",
@@ -745,7 +745,7 @@ export const crsQuestions: Question[] = [
   {
     id: 54,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Why did Joseph's brothers come to Egypt?",
     options: [
       "To find work",
@@ -759,7 +759,7 @@ export const crsQuestions: Question[] = [
   {
     id: 55,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Who was kept in Egypt when the brothers returned home the first time?",
     options: [
       "Reuben",
@@ -773,7 +773,7 @@ export const crsQuestions: Question[] = [
   {
     id: 56,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Which brother did Joseph demand be brought to Egypt?",
     options: [
       "Benjamin",
@@ -787,7 +787,7 @@ export const crsQuestions: Question[] = [
   {
     id: 57,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What did Joseph hide in Benjamin's sack?",
     options: [
       "Gold coin",
@@ -801,7 +801,7 @@ export const crsQuestions: Question[] = [
   {
     id: 58,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "What did Joseph finally do when he saw his brothers repent?",
     options: [
       "Punished them",
@@ -815,7 +815,7 @@ export const crsQuestions: Question[] = [
   {
     id: 59,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "Where did Jacob and his family finally settle in Egypt?",
     options: [
       "The land of Goshen",
@@ -829,7 +829,7 @@ export const crsQuestions: Question[] = [
   {
     id: 60,
     type: 'multiple-choice',
-    subject: 'business',
+    subject: 'crs',
     question: "How old was Joseph when he died?",
     options: [
       "80 years",

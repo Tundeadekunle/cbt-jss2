@@ -5,6 +5,10 @@ import { scienceQuestions } from './science';
 import { socialStudiesQuestions } from './social-studies';
 import { businessQuestions } from './business';
 import { crsQuestions } from './crs';
+<<<<<<< HEAD
+=======
+import { pheQuestions } from './phe';
+>>>>>>> 0fcf695 (name and subject)
 
 export const getQuestionsBySubject = (subject: Subject): Question[] => {
   switch (subject) {
@@ -14,11 +18,20 @@ export const getQuestionsBySubject = (subject: Subject): Question[] => {
       return businessQuestions;
     case 'cca':
       return ccaQuestions;
+<<<<<<< HEAD
+=======
+      case 'phe':
+      return pheQuestions;
+>>>>>>> 0fcf695 (name and subject)
       case 'crs':
       return crsQuestions;
     case 'science':
       return scienceQuestions;
+<<<<<<< HEAD
     case 'social-studies':
+=======
+    case 'scs':
+>>>>>>> 0fcf695 (name and subject)
       return socialStudiesQuestions;
     default:
       return historyQuestions;
@@ -36,19 +49,33 @@ export const getSubjectDisplayName = (subject: Subject): string => {
       return 'History';
     case 'cca':
       return 'CCA';
+<<<<<<< HEAD
+=======
+      case 'phe':
+      return 'Physical & Health Education';
+>>>>>>> 0fcf695 (name and subject)
       case 'crs':
       return 'CRS';
       case 'business':
       return 'Business Studies';
     case 'science':
       return 'Basic Science';
+<<<<<<< HEAD
     case 'social-studies':
       return 'Social Studies';
+=======
+    case 'scs':
+      return 'Social and Citizenship Studies';
+>>>>>>> 0fcf695 (name and subject)
     default:
       return 'CCA';
   }
 };
 
 export const getAllSubjects = (): Subject[] => {
+<<<<<<< HEAD
   return ['history', 'cca', 'crs', 'science', 'business', 'social-studies'];
+=======
+  return ['history', 'cca', 'crs', 'science', 'business', 'scs', 'phe'];
+>>>>>>> 0fcf695 (name and subject)
 };
