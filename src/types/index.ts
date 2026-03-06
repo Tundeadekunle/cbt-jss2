@@ -1,5 +1,5 @@
 
-export type Subject = 'history' | 'cca' | 'science' | 'scs' | 'business' | 'crs' | 'phe';
+export type Subject = 'history' | 'cca' | 'science' | 'scs' | 'business' | 'crs' | 'phe' | 'english' | 'vocational-studies';
 
 export interface Question {
   id: number;

@@ -2,27 +2,30 @@ import { Question, Subject } from '@/types';
 import { historyQuestions } from './history';
 import { ccaQuestions } from './cca';
 import { scienceQuestions } from './science';
-import { socialStudiesQuestions } from './social-studies';
+import { scsQuestions } from './social-studies';
 import { businessQuestions } from './business';
 import { crsQuestions } from './crs';
 import { pheQuestions } from './phe';
+import { englishQuestions } from './english';
+import {vocationalStudiesQuestions} from './vocation';
 
 export const getQuestionsBySubject = (subject: Subject): Question[] => {
   switch (subject) {
     case 'history':
       return historyQuestions;
+    case 'vocational-studies':
+      return vocationalStudiesQuestions;
       case 'business':
       return businessQuestions;
     case 'cca':
       return ccaQuestions;
       case 'phe':
       return pheQuestions;
-      case 'crs':
-      return crsQuestions;
-    case 'science':
-      return scienceQuestions;
+      
     case 'scs':
-      return socialStudiesQuestions;
+      return scsQuestions;
+      case 'english':
+      return englishQuestions;
     default:
       return historyQuestions;
   }
@@ -49,11 +52,23 @@ export const getSubjectDisplayName = (subject: Subject): string => {
       return 'Basic Science';
     case 'scs':
       return 'Social and Citizenship Studies';
+      case 'english':
+      return 'English Language';
+      case 'vocational-studies':
+      return 'Vocational Studies';
     default:
       return 'CCA';
   }
 };
 
 export const getAllSubjects = (): Subject[] => {
-  return ['history', 'cca', 'crs', 'science', 'business', 'scs', 'phe'];
+  return ['history', 'business', 'scs', 'phe', 'english', 'vocational-studies'];
 };
+
+
+//  'cca', 'crs', 'science', case 'crs':
+//       return crsQuestions;
+//     case 'science':
+//       return scienceQuestions;
+// case 'cca':
+//       return ccaQuestions;

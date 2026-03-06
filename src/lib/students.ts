@@ -6,21 +6,21 @@ export const students: Student[] = [
     name: 'Okeowo Anjola', 
     class: 'JSS 2', 
     email: 'sodim@school.edu',
-    subjects: [ 'science', 'history', 'cca', 'crs', 'business', 'scs', 'phe']
+    subjects: [ 'history',  'business', 'scs', 'phe', 'english', 'vocational-studies']
   },
   { 
     id: 'MTH032STU', 
     name: 'Olaokun Omodesire', 
     class: 'JSS 2', 
     email: 'salam@school.edu',
-    subjects: [ 'science', 'history', 'cca', 'crs', 'business', 'scs', 'phe']
+    subjects: [  'history', 'business', 'scs', 'phe', 'english', 'vocational-studies']
   },
   { 
     id: 'MTH031STU', 
     name: 'Erinoso Olarenwaju', 
     class: 'JSS 2', 
     email: 'alamuy@school.edu',
-    subjects: [ 'science', 'history', 'cca', 'crs', 'business', 'scs', 'phe']
+    subjects: [  'history', 'business', 'scs', 'phe', 'english', 'vocational-studies']
   },
   
 { 
@@ -28,7 +28,7 @@ export const students: Student[] = [
     name: 'Adeoye Fathia', 
     class: 'JSS 2', 
     email: 'adefathia@school.edu',
-    subjects: [ 'science', 'history', 'cca', 'crs', 'business', 'scs', 'phe']
+    subjects: [  'history', 'business', 'scs', 'phe', 'english', 'vocational-studies' ]
   },
 
   { 
@@ -36,24 +36,24 @@ export const students: Student[] = [
     name: 'Oluwalose Rokeebat', 
     class: 'JSS 2', 
     email: 'alamuy@school.edu',
-    subjects: [ 'science', 'history', 'cca', 'crs', 'business', 'scs', 'phe']
+    subjects: [  'history', 'business', 'scs', 'phe', 'english', 'vocational-studies']
   },
 { 
     id: 'MTH0027STU', 
     name: 'Wale Seun', 
     class: 'BASIC VI', 
     email: 'jsy@school.edu',
-    subjects: [ 'science', 'history', 'cca', 'crs', 'business', 'scs', 'phe']
+    subjects: [  'history', 'business', 'scs', 'phe', 'english', 'vocational-studies']
   },
   { 
     id: 'MTH0028STU', 
     name: 'Kay Will', 
     class: 'JSS 2', 
     email: 'jsy@school.edu',
-    subjects: ['science', 'history', 'cca', 'crs', 'business', 'scs', 'phe']
+    subjects: [ 'history', 'business', 'scs', 'phe', 'english', 'vocational-studies']
   },
   
-  // Add more students...
+  //  Add more students...
 ];
 
 export const getStudentById = (id: string): Student | undefined => {

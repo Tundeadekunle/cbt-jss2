@@ -1,844 +1,411 @@
 import { Question } from '@/types';
 
 export const businessQuestions: Question[] = [
+  // Section A: Multiple Choice Questions (30 Questions)
   {
     id: 1,
     type: 'multiple-choice',
     subject: 'business',
-    question: "business can best be defined as the process that deals with _______.",
+    question: "Buying by cash means payment is made ______.",
     options: [
-      "Production only",
-      "Distribution and exchange of goods and services",
-      "Manufacturing only",
-      "Agriculture"
+      "later",
+      "immediately",
+      "next year",
+      "never"
     ],
-    correctAnswer: "Distribution and exchange of goods and services",
+    correctAnswer: "immediately",
     marks: 1
   },
   {
     id: 2,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The main purpose of business is to _______.",
+    question: "Buying on credit means payment is made ______.",
     options: [
-      "Create employment",
-      "Make goods available to consumers",
-      "Store goods in warehouses",
-      "Advertise products"
+      "immediately",
+      "later",
+      "before buying",
+      "twice"
     ],
-    correctAnswer: "Make goods available to consumers",
+    correctAnswer: "later",
     marks: 1
   },
   {
     id: 3,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The two main branches of business are _______.",
+    question: "Cost price is the ______.",
     options: [
-      "Trade and aids to trade",
-      "Industry and production",
-      "Wholesale and retail",
-      "Import and export"
+      "selling price",
+      "price goods are bought",
+      "profit",
+      "loss"
     ],
-    correctAnswer: "Trade and aids to trade",
+    correctAnswer: "price goods are bought",
     marks: 1
   },
   {
     id: 4,
     type: 'multiple-choice',
     subject: 'business',
-    question: "business bridges the gap between _______.",
+    question: "Turnover means ______.",
     options: [
-      "Producers and consumers",
-      "Buyers and sellers only",
-      "Factory and warehouse",
-      "Money and goods"
+      "total sales",
+      "total loss",
+      "total expenses",
+      "total debt"
     ],
-    correctAnswer: "Producers and consumers",
+    correctAnswer: "total sales",
     marks: 1
   },
   {
     id: 5,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Which of the following is NOT a component of business?",
+    question: "One career in the capital market is ______.",
     options: [
-      "Banking",
-      "Insurance",
-      "Manufacturing",
-      "Transportation"
+      "banker",
+      "tailor",
+      "driver",
+      "farmer"
     ],
-    correctAnswer: "Manufacturing",
+    correctAnswer: "banker",
     marks: 1
   },
   {
     id: 6,
     type: 'multiple-choice',
     subject: 'business',
-    question: "business makes goods available at the _______.",
+    question: "The capital market helps businesses to ______.",
     options: [
-      "Right place and time",
-      "Cheapest price only",
-      "Factory gate",
-      "Warehouse only"
+      "get long-term funds",
+      "close down",
+      "reduce profit",
+      "increase loss"
     ],
-    correctAnswer: "Right place and time",
+    correctAnswer: "get long-term funds",
     marks: 1
   },
   {
     id: 7,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Which of the following best describes business?",
+    question: "Shares represent ______.",
     options: [
-      "Buying and selling only",
-      "Exchange and distribution of goods and services",
-      "Money lending",
-      "Production of raw materials"
+      "debt only",
+      "ownership in a company",
+      "punishment",
+      "transport"
     ],
-    correctAnswer: "Exchange and distribution of goods and services",
+    correctAnswer: "ownership in a company",
     marks: 1
   },
   {
     id: 8,
     type: 'multiple-choice',
     subject: 'business',
-    question: "business helps in improving _______.",
+    question: "Investors buy shares to earn ______.",
     options: [
-      "Social relationships",
-      "The standard of living",
-      "Agricultural production only",
-      "Education"
+      "fines",
+      "dividends",
+      "punishment",
+      "taxes"
     ],
-    correctAnswer: "The standard of living",
+    correctAnswer: "dividends",
     marks: 1
   },
   {
     id: 9,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Which of these is NOT part of business?",
+    question: "A market is a place where ______.",
     options: [
-      "Transport",
-      "Banking",
-      "Industry",
-      "Advertising"
+      "goods are produced",
+      "goods and services are bought and sold",
+      "teachers teach",
+      "doctors treat patients"
     ],
-    correctAnswer: "Industry",
+    correctAnswer: "goods and services are bought and sold",
     marks: 1
   },
   {
     id: 10,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The removal of barriers between producers and consumers is achieved by _______.",
+    question: "One feature of a market is ______.",
     options: [
-      "business",
-      "Manufacturing",
-      "Government",
-      "Agriculture"
+      "buyers and sellers",
+      "only buyers",
+      "only sellers",
+      "no money"
     ],
-    correctAnswer: "business",
+    correctAnswer: "buyers and sellers",
     marks: 1
   },
   {
     id: 11,
     type: 'multiple-choice',
     subject: 'business',
-    question: "business involves both _______.",
+    question: "The commodity market deals in ______.",
     options: [
-      "Trade and banking",
-      "Trade and aids to trade",
-      "Production and construction",
-      "Industry and mining"
+      "shares",
+      "farm produce and raw materials",
+      "houses",
+      "labour"
     ],
-    correctAnswer: "Trade and aids to trade",
+    correctAnswer: "farm produce and raw materials",
     marks: 1
   },
   {
     id: 12,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Which of the following is an example of a service industry?",
+    question: "The money market deals in ______.",
     options: [
-      "Farming",
-      "Teaching",
-      "Mining",
-      "Fishing"
+      "long-term loans",
+      "short-term funds",
+      "farm produce",
+      "buildings"
     ],
-    correctAnswer: "Teaching",
+    correctAnswer: "short-term funds",
     marks: 1
   },
   {
     id: 13,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The two main divisions of business are _______.",
+    question: "The capital market deals in ______.",
     options: [
-      "Industry and production",
-      "Trade and aids to trade",
-      "Agriculture and manufacturing",
-      "Import and export"
+      "short-term loans",
+      "shares and debentures",
+      "vegetables",
+      "transport"
     ],
-    correctAnswer: "Trade and aids to trade",
+    correctAnswer: "shares and debentures",
     marks: 1
   },
   {
     id: 14,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Trade involves _______.",
+    question: "Transportation is an aid to trade because it ______.",
     options: [
-      "Buying and selling of goods and services",
-      "Moving goods from one place to another",
-      "Advertising goods",
-      "Storing goods"
+      "moves goods from one place to another",
+      "stores goods",
+      "advertises goods",
+      "insures goods"
     ],
-    correctAnswer: "Buying and selling of goods and services",
+    correctAnswer: "moves goods from one place to another",
     marks: 1
   },
   {
     id: 15,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Aids to trade are activities that _______.",
+    question: "Insurance protects against ______.",
     options: [
-      "Replace trade",
-      "Support trade",
-      "Stop trade",
-      "Delay trade"
+      "profit",
+      "risk and loss",
+      "sales",
+      "production"
     ],
-    correctAnswer: "Support trade",
+    correctAnswer: "risk and loss",
     marks: 1
   },
   {
     id: 16,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Which of the following is a division of business?",
+    question: "Communication helps trade by ______.",
     options: [
-      "Insurance",
-      "Retail",
-      "Industry",
-      "Construction"
+      "spreading information",
+      "stopping goods",
+      "destroying markets",
+      "causing loss"
     ],
-    correctAnswer: "Retail",
+    correctAnswer: "spreading information",
     marks: 1
   },
   {
     id: 17,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Retail trade is concerned with _______.",
+    question: "Customs and Excise are responsible for ______.",
     options: [
-      "Selling goods to the final consumer",
-      "Selling goods in bulk",
-      "Exporting goods",
-      "Advertising goods"
+      "collecting taxes on imports and exports",
+      "teaching",
+      "farming",
+      "banking"
     ],
-    correctAnswer: "Selling goods to the final consumer",
+    correctAnswer: "collecting taxes on imports and exports",
     marks: 1
   },
   {
     id: 18,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The wholesaler serves as a link between _______.",
+    question: "Profit occurs when selling price is ______ cost price.",
     options: [
-      "Producer and retailer",
-      "Retailer and consumer",
-      "Government and producer",
-      "Importer and exporter"
+      "equal to",
+      "less than",
+      "greater than",
+      "divided by"
     ],
-    correctAnswer: "Producer and retailer",
+    correctAnswer: "greater than",
     marks: 1
   },
   {
     id: 19,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Which of these is NOT an aid to trade?",
+    question: "Loss occurs when selling price is ______ cost price.",
     options: [
-      "Transport",
-      "Insurance",
-      "Communication",
-      "Farming"
+      "greater than",
+      "equal to",
+      "less than",
+      "multiplied by"
     ],
-    correctAnswer: "Farming",
+    correctAnswer: "less than",
     marks: 1
   },
   {
     id: 20,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The division of business that deals with storage is _______.",
+    question: "Profit = ______.",
     options: [
-      "Advertising",
-      "Warehousing",
-      "Banking",
-      "Insurance"
+      "CP – SP",
+      "SP – CP",
+      "SP + CP",
+      "SP ÷ CP"
     ],
-    correctAnswer: "Warehousing",
+    correctAnswer: "SP – CP",
     marks: 1
   },
   {
     id: 21,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The flow of goods from producer to consumer follows which correct order?",
+    question: "One importance of profit is to ______.",
     options: [
-      "Producer → Consumer",
-      "Producer → Wholesaler → Retailer → Consumer",
-      "Retailer → Producer → Consumer",
-      "Consumer → Producer"
+      "expand the business",
+      "close the business",
+      "reduce production",
+      "increase debt"
     ],
-    correctAnswer: "Producer → Wholesaler → Retailer → Consumer",
+    correctAnswer: "expand the business",
     marks: 1
   },
   {
     id: 22,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Communication aids trade by _______.",
+    question: "A business that makes continuous loss may ______.",
     options: [
-      "Reducing distance",
-      "Providing information",
-      "Increasing transport cost",
-      "Producing goods"
+      "grow",
+      "expand",
+      "collapse",
+      "prosper"
     ],
-    correctAnswer: "Providing information",
+    correctAnswer: "collapse",
     marks: 1
   },
   {
     id: 23,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Which of the following divisions of business ensures safety of goods in transit?",
+    question: "Home trade takes place ______.",
     options: [
-      "Insurance",
-      "Transport",
-      "Warehousing",
-      "Advertising"
+      "within a country",
+      "between countries",
+      "in space",
+      "on the sea"
     ],
-    correctAnswer: "Insurance",
+    correctAnswer: "within a country",
     marks: 1
   },
   {
     id: 24,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Which of these is the main aim of the division of business?",
+    question: "Trade between two countries is called ______.",
     options: [
-      "To move goods to consumers easily",
-      "To promote sports",
-      "To provide entertainment",
-      "To manufacture goods"
+      "retail trade",
+      "home trade",
+      "foreign trade",
+      "small trade"
     ],
-    correctAnswer: "To move goods to consumers easily",
+    correctAnswer: "foreign trade",
     marks: 1
   },
   {
     id: 25,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Trade that takes place within a country is known as _______.",
+    question: "One attribute of a devoted worker is ______.",
     options: [
-      "Foreign trade",
-      "International trade",
-      "Home trade",
-      "Global trade"
+      "dishonesty",
+      "punctuality",
+      "rudeness",
+      "impatience"
     ],
-    correctAnswer: "Home trade",
+    correctAnswer: "punctuality",
     marks: 1
   },
   {
     id: 26,
     type: 'multiple-choice',
     subject: 'business',
-    question: "The two main types of home trade are _______.",
+    question: "Devotion to duty leads to ______.",
     options: [
-      "Import and export",
-      "Wholesale and retail",
-      "Import and re-export",
-      "Local and international"
+      "dismissal",
+      "promotion",
+      "punishment",
+      "suspension"
     ],
-    correctAnswer: "Wholesale and retail",
+    correctAnswer: "promotion",
     marks: 1
   },
   {
     id: 27,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Foreign trade involves _______.",
+    question: "A devoted worker is always ______.",
     options: [
-      "Buying and selling within a country",
-      "Exchange of goods between countries",
-      "Buying only foreign goods",
-      "Selling to local markets"
+      "irresponsible",
+      "hardworking",
+      "lazy",
+      "quarrelsome"
     ],
-    correctAnswer: "Exchange of goods between countries",
+    correctAnswer: "hardworking",
     marks: 1
   },
   {
     id: 28,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Import trade means _______.",
+    question: "Regularity at work means ______.",
     options: [
-      "Selling goods to another country",
-      "Bringing goods into a country",
-      "Selling to consumers",
-      "Manufacturing for export"
+      "attending work consistently",
+      "staying at home",
+      "working once a week",
+      "closing early"
     ],
-    correctAnswer: "Bringing goods into a country",
+    correctAnswer: "attending work consistently",
     marks: 1
   },
   {
     id: 29,
     type: 'multiple-choice',
     subject: 'business',
-    question: "Export trade means _______.",
+    question: "A reward is given to workers for ______.",
     options: [
-      "Buying goods from abroad",
-      "Selling goods to other countries",
-      "Selling goods locally",
-      "Storing goods in warehouses"
+      "bad behaviour",
+      "good performance",
+      "lateness",
+      "fighting"
     ],
-    correctAnswer: "Selling goods to other countries",
-    marks: 1
-  },
-  {
-    id: 30,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "The re-export of goods means _______.",
-    options: [
-      "Exporting goods already imported",
-      "Importing goods from local markets",
-      "Selling goods locally",
-      "Keeping goods in warehouses"
-    ],
-    correctAnswer: "Exporting goods already imported",
-    marks: 1
-  },
-  {
-    id: 31,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "A Nigerian exporting cocoa to the UK is involved in _______.",
-    options: [
-      "Import trade",
-      "Export trade",
-      "Wholesale trade",
-      "Retail trade"
-    ],
-    correctAnswer: "Export trade",
-    marks: 1
-  },
-  {
-    id: 32,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "Goods bought from another country are called _______.",
-    options: [
-      "Exports",
-      "Imports",
-      "Retails",
-      "Wholesales"
-    ],
-    correctAnswer: "Imports",
-    marks: 1
-  },
-  {
-    id: 33,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "Home trade consists of _______.",
-    options: [
-      "Import and export trade",
-      "Wholesale and retail trade",
-      "Import and re-export",
-      "Buying and advertising"
-    ],
-    correctAnswer: "Wholesale and retail trade",
-    marks: 1
-  },
-  {
-    id: 34,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "Foreign trade can also be called _______.",
-    options: [
-      "Local trade",
-      "International trade",
-      "Domestic trade",
-      "Internal trade"
-    ],
-    correctAnswer: "International trade",
-    marks: 1
-  },
-  {
-    id: 35,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "Trade that helps a country to earn foreign exchange is _______.",
-    options: [
-      "Import trade",
-      "Export trade",
-      "Home trade",
-      "Retail trade"
-    ],
-    correctAnswer: "Export trade",
-    marks: 1
-  },
-  {
-    id: 36,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "Importers pay _______ when goods arrive from other countries.",
-    options: [
-      "Rent",
-      "Customs duties",
-      "Interest",
-      "Tax"
-    ],
-    correctAnswer: "Customs duties",
-    marks: 1
-  },
-  {
-    id: 37,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "A bank is an institution that deals with _______.",
-    options: [
-      "Money and financial transactions",
-      "Only loans",
-      "Goods and services",
-      "Advertising"
-    ],
-    correctAnswer: "Money and financial transactions",
-    marks: 1
-  },
-  {
-    id: 38,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "The main function of a bank is to _______.",
-    options: [
-      "Store goods",
-      "Accept deposits and grant loans",
-      "Transport money",
-      "Advertise savings"
-    ],
-    correctAnswer: "Accept deposits and grant loans",
-    marks: 1
-  },
-  {
-    id: 39,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "Which of the following is NOT a type of bank?",
-    options: [
-      "Central bank",
-      "Commercial bank",
-      "Agricultural bank",
-      "Manufacturing bank"
-    ],
-    correctAnswer: "Manufacturing bank",
-    marks: 1
-  },
-  {
-    id: 40,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "The Central Bank is the _______.",
-    options: [
-      "Banker to the government",
-      "Banker to individuals",
-      "Retail bank",
-      "Loan officer"
-    ],
-    correctAnswer: "Banker to the government",
-    marks: 1
-  },
-  {
-    id: 41,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "Which bank issues currency in a country?",
-    options: [
-      "Commercial bank",
-      "Central bank",
-      "Agricultural bank",
-      "Cooperative bank"
-    ],
-    correctAnswer: "Central bank",
-    marks: 1
-  },
-  {
-    id: 42,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "Commercial banks help business by _______.",
-    options: [
-      "Giving loans to traders",
-      "Building roads",
-      "Growing crops",
-      "Producing goods"
-    ],
-    correctAnswer: "Giving loans to traders",
-    marks: 1
-  },
-  {
-    id: 43,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "The means by which money can be withdrawn easily from banks is _______.",
-    options: [
-      "Cheque",
-      "Receipt",
-      "Token",
-      "Invoice"
-    ],
-    correctAnswer: "Cheque",
-    marks: 1
-  },
-  {
-    id: 44,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "A current account is mostly used by _______.",
-    options: [
-      "Students",
-      "Businessmen",
-      "Pensioners",
-      "Farmers"
-    ],
-    correctAnswer: "Businessmen",
-    marks: 1
-  },
-  {
-    id: 45,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "The type of account that earns interest is _______.",
-    options: [
-      "Current account",
-      "Savings account",
-      "Overdraft account",
-      "Cheque account"
-    ],
-    correctAnswer: "Savings account",
-    marks: 1
-  },
-  {
-    id: 46,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "The Central Bank controls other banks through _______.",
-    options: [
-      "Supervision and regulation",
-      "Advertising",
-      "Lending to individuals",
-      "Selling goods"
-    ],
-    correctAnswer: "Supervision and regulation",
-    marks: 1
-  },
-  {
-    id: 47,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "One of the functions of commercial banks is _______.",
-    options: [
-      "Accepting deposits",
-      "Issuing currency",
-      "Supervising other banks",
-      "Making laws"
-    ],
-    correctAnswer: "Accepting deposits",
-    marks: 1
-  },
-  {
-    id: 48,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "Which of the following is NOT a service provided by banks?",
-    options: [
-      "Accepting deposits",
-      "Granting loans",
-      "Growing crops",
-      "Transferring money"
-    ],
-    correctAnswer: "Growing crops",
-    marks: 1
-  },
-  {
-    id: 49,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "Consumer education teaches people how to _______.",
-    options: [
-      "Produce goods",
-      "Make wise buying decisions",
-      "Save the environment",
-      "Advertise goods"
-    ],
-    correctAnswer: "Make wise buying decisions",
-    marks: 1
-  },
-  {
-    id: 50,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "The main aim of consumer education is to _______.",
-    options: [
-      "Protect consumers' rights",
-      "Promote producers",
-      "Increase prices",
-      "Discourage sales"
-    ],
-    correctAnswer: "Protect consumers' rights",
-    marks: 1
-  },
-  {
-    id: 51,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "A well-informed consumer is one who _______.",
-    options: [
-      "Buys anything advertised",
-      "Knows his rights and responsibilities",
-      "Always buys imported goods",
-      "Ignores product labels"
-    ],
-    correctAnswer: "Knows his rights and responsibilities",
-    marks: 1
-  },
-  {
-    id: 52,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "Consumer education helps people to avoid _______.",
-    options: [
-      "Buying fake goods",
-      "Buying quality goods",
-      "Comparing prices",
-      "Making savings"
-    ],
-    correctAnswer: "Buying fake goods",
-    marks: 1
-  },
-  {
-    id: 53,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "One of the benefits of consumer education is _______.",
-    options: [
-      "Reducing fraud and exploitation",
-      "Promoting wastefulness",
-      "Increasing ignorance",
-      "Discouraging savings"
-    ],
-    correctAnswer: "Reducing fraud and exploitation",
-    marks: 1
-  },
-  {
-    id: 54,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "A consumer who reads product labels before buying is said to be _______.",
-    options: [
-      "Careless",
-      "Educated",
-      "Wasteful",
-      "Lazy"
-    ],
-    correctAnswer: "Educated",
-    marks: 1
-  },
-  {
-    id: 55,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "Consumer education creates awareness about _______.",
-    options: [
-      "Producers' profits",
-      "Consumer rights",
-      "Advertisement laws",
-      "Store management"
-    ],
-    correctAnswer: "Consumer rights",
-    marks: 1
-  },
-  {
-    id: 56,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "One of the rights of consumers is the right to _______.",
-    options: [
-      "Safety and quality products",
-      "Produce goods",
-      "Sell goods",
-      "Fix prices"
-    ],
-    correctAnswer: "Safety and quality products",
-    marks: 1
-  },
-  {
-    id: 57,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "Consumer education helps to develop _______.",
-    options: [
-      "Self-reliance and wise spending habits",
-      "Ignorance of market prices",
-      "High consumption",
-      "Dishonesty"
-    ],
-    correctAnswer: "Self-reliance and wise spending habits",
-    marks: 1
-  },
-  {
-    id: 58,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "A consumer complaint can be made when _______.",
-    options: [
-      "Goods are faulty or substandard",
-      "Prices are low",
-      "Products are imported",
-      "Goods are advertised"
-    ],
-    correctAnswer: "Goods are faulty or substandard",
-    marks: 1
-  },
-  {
-    id: 59,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "Which government agency protects consumer interests in Nigeria?",
-    options: [
-      "NAFDAC",
-      "NNPC",
-      "NCC",
-      "WAEC"
-    ],
-    correctAnswer: "NAFDAC",
-    marks: 1
-  },
-  {
-    id: 60,
-    type: 'multiple-choice',
-    subject: 'business',
-    question: "Consumer education can be taught through _______.",
-    options: [
-      "Schools, media, and seminars",
-      "Only the market",
-      "Family alone",
-      "Churches only"
-    ],
-    correctAnswer: "Schools, media, and seminars",
+    correctAnswer: "good performance",
     marks: 1
   }
 ];
