@@ -6,21 +6,21 @@ export const students: Student[] = [
     name: 'Okeowo Anjola', 
     class: 'JSS 2', 
     email: 'sodim@school.edu',
-    subjects: [ 'history',  'business', 'scs', 'phe', 'english', 'vocational-studies']
+    subjects: [ 'history',  'business', 'scs', 'phe', 'english', 'vocational-studies', 'cca' ]
   },
   { 
     id: 'MTH032STU', 
     name: 'Olaokun Omodesire', 
     class: 'JSS 2', 
     email: 'salam@school.edu',
-    subjects: [  'history', 'business', 'scs', 'phe', 'english', 'vocational-studies']
+    subjects: [  'history', 'business', 'scs', 'phe', 'english', 'vocational-studies', 'cca' ]
   },
   { 
     id: 'MTH031STU', 
     name: 'Erinoso Olarenwaju', 
     class: 'JSS 2', 
     email: 'alamuy@school.edu',
-    subjects: [  'history', 'business', 'scs', 'phe', 'english', 'vocational-studies']
+    subjects: [  'history', 'business', 'scs', 'phe', 'english', 'vocational-studies', 'cca' ]
   },
   
 { 
@@ -28,7 +28,7 @@ export const students: Student[] = [
     name: 'Adeoye Fathia', 
     class: 'JSS 2', 
     email: 'adefathia@school.edu',
-    subjects: [  'history', 'business', 'scs', 'phe', 'english', 'vocational-studies' ]
+    subjects: [  'history', 'business', 'scs', 'phe', 'english', 'vocational-studies', 'cca' ]
   },
 
   { 
@@ -36,21 +36,21 @@ export const students: Student[] = [
     name: 'Oluwalose Rokeebat', 
     class: 'JSS 2', 
     email: 'alamuy@school.edu',
-    subjects: [  'history', 'business', 'scs', 'phe', 'english', 'vocational-studies']
+    subjects: [  'history', 'business', 'scs', 'phe', 'english', 'vocational-studies', 'cca' ]
   },
 { 
     id: 'MTH0027STU', 
     name: 'Wale Seun', 
     class: 'BASIC VI', 
     email: 'jsy@school.edu',
-    subjects: [  'history', 'business', 'scs', 'phe', 'english', 'vocational-studies']
+    subjects: [  'history', 'business', 'scs', 'phe', 'english', 'vocational-studies', 'cca' ]
   },
   { 
     id: 'MTH0028STU', 
     name: 'Kay Will', 
     class: 'JSS 2', 
     email: 'jsy@school.edu',
-    subjects: [ 'history', 'business', 'scs', 'phe', 'english', 'vocational-studies']
+    subjects: [ 'history', 'business', 'scs', 'phe', 'english', 'vocational-studies', 'cca' ]
   },
   
   //  Add more students...

@@ -41,7 +41,7 @@ export const getSubjectDisplayName = (subject: Subject): string => {
     case 'history':
       return 'History';
     case 'cca':
-      return 'CCA';
+      return 'Cultural & Creative Arts';
       case 'phe':
       return 'Physical & Health Education';
       case 'crs':
@@ -62,7 +62,7 @@ export const getSubjectDisplayName = (subject: Subject): string => {
 };
 
 export const getAllSubjects = (): Subject[] => {
-  return ['history', 'business', 'scs', 'phe', 'english', 'vocational-studies'];
+  return ['history', 'business', 'scs', 'phe', 'english', 'vocational-studies', 'cca'];
 };
 
 
