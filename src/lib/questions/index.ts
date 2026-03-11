@@ -21,7 +21,8 @@ export const getQuestionsBySubject = (subject: Subject): Question[] => {
       return ccaQuestions;
       case 'phe':
       return pheQuestions;
-      
+      case 'science':
+       return scienceQuestions;
     case 'scs':
       return scsQuestions;
       case 'english':
@@ -62,11 +63,11 @@ export const getSubjectDisplayName = (subject: Subject): string => {
 };
 
 export const getAllSubjects = (): Subject[] => {
-  return ['history', 'business', 'scs', 'phe', 'english', 'vocational-studies', 'cca'];
+  return ['history', 'business', 'scs', 'science', 'phe', 'english', 'vocational-studies', 'cca'];
 };
 
 
-//  'cca', 'crs', 'science', case 'crs':
+//  'cca', 'crs',  case 'crs':
 //       return crsQuestions;
 //     case 'science':
 //       return scienceQuestions;

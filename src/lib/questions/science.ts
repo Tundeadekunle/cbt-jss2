@@ -1,844 +1,424 @@
 import { Question } from '@/types';
 
 export const scienceQuestions: Question[] = [
+  // Section A: Multiple Choice Questions (30 Questions)
   {
     id: 1,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Which of the following is a living thing?",
+    question: "Which of the following is an element?",
     options: [
-      "Rock",
-      "Fish",
-      "Table",
-      "Water"
+      "Water",
+      "Salt",
+      "Oxygen",
+      "Sugar"
     ],
-    correctAnswer: "Fish",
+    correctAnswer: "Oxygen",
     marks: 1
   },
   {
     id: 2,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Living things can __________.",
+    question: "A compound is best described as a substance that is made up of _____.",
     options: [
-      "Move, grow, and reproduce",
-      "Stay still forever",
-      "Never die",
-      "Shine in the dark"
+      "only one kind of atom",
+      "two or more elements chemically combined",
+      "two substances mixed together",
+      "solid particles"
     ],
-    correctAnswer: "Move, grow, and reproduce",
+    correctAnswer: "two or more elements chemically combined",
     marks: 1
   },
   {
     id: 3,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Which of these is a non-living thing?",
+    question: "Which of the following is a mixture?",
     options: [
-      "Cat",
-      "Flower",
-      "Chair",
-      "Bird"
+      "Carbon dioxide",
+      "Iron",
+      "Air",
+      "Water"
     ],
-    correctAnswer: "Chair",
+    correctAnswer: "Air",
     marks: 1
   },
   {
     id: 4,
     type: 'multiple-choice',
     subject: 'science',
-    question: "One main difference between living and non-living things is that living things __________.",
+    question: "One major difference between a compound and a mixture is that _____.",
     options: [
-      "Have color",
-      "Breathe and feed",
-      "Are hard",
-      "Cannot move"
+      "mixtures cannot be separated",
+      "compounds can be separated physically",
+      "mixtures can be separated physically",
+      "compounds contain only one substance"
     ],
-    correctAnswer: "Breathe and feed",
+    correctAnswer: "mixtures can be separated physically",
     marks: 1
   },
   {
     id: 5,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Which of the following can grow?",
+    question: "Which of the following substances is an acid?",
     options: [
-      "Stone",
-      "Paper",
-      "Seed",
-      "Book"
+      "Soap solution",
+      "Lime water",
+      "Vinegar",
+      "Salt solution"
     ],
-    correctAnswer: "Seed",
+    correctAnswer: "Vinegar",
     marks: 1
   },
   {
     id: 6,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Non-living things can be divided into __________ and __________ things.",
+    question: "Bases are substances that _____.",
     options: [
-      "Natural and artificial",
-      "Big and small",
-      "Black and white",
-      "Hot and cold"
+      "taste sour",
+      "turn blue litmus red",
+      "turn red litmus blue",
+      "are always poisonous"
     ],
-    correctAnswer: "Natural and artificial",
+    correctAnswer: "turn red litmus blue",
     marks: 1
   },
   {
     id: 7,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Which of these is a natural non-living thing?",
+    question: "Which of the following is a common example of a base?",
     options: [
-      "Plastic",
-      "Rock",
-      "Chair",
-      "Car"
+      "Hydrochloric acid",
+      "Sodium hydroxide",
+      "Vinegar",
+      "Lemon juice"
     ],
-    correctAnswer: "Rock",
+    correctAnswer: "Sodium hydroxide",
     marks: 1
   },
   {
     id: 8,
     type: 'multiple-choice',
     subject: 'science',
-    question: "What do all living things need to survive?",
+    question: "A salt is formed when _____.",
     options: [
-      "Food, water, and air",
-      "Money and clothes",
-      "Plastic and wood",
-      "Soil and stones"
+      "an acid reacts with another acid",
+      "a base reacts with another base",
+      "an acid reacts with a base",
+      "water reacts with air"
     ],
-    correctAnswer: "Food, water, and air",
+    correctAnswer: "an acid reacts with a base",
     marks: 1
   },
   {
     id: 9,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Plants are living things because they __________.",
+    question: "Which organ is responsible for pumping blood round the body?",
     options: [
-      "Cannot move",
-      "Can make their own food",
-      "Do not breathe",
-      "Have no life"
+      "Lungs",
+      "Brain",
+      "Heart",
+      "Kidney"
     ],
-    correctAnswer: "Can make their own food",
+    correctAnswer: "Heart",
     marks: 1
   },
   {
     id: 10,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The process by which living things produce young ones is called __________.",
+    question: "The main function of the lungs is to _____.",
     options: [
-      "Respiration",
-      "Excretion",
-      "Reproduction",
-      "Circulation"
+      "digest food",
+      "pump blood",
+      "exchange gases",
+      "remove waste"
     ],
-    correctAnswer: "Reproduction",
+    correctAnswer: "exchange gases",
     marks: 1
   },
   {
     id: 11,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The smallest unit of life is the __________.",
+    question: "Which system of the body helps in movement and support?",
     options: [
-      "Organ",
-      "Cell",
-      "Tissue",
-      "System"
+      "Digestive system",
+      "Skeletal system",
+      "Respiratory system",
+      "Circulatory system"
     ],
-    correctAnswer: "Cell",
+    correctAnswer: "Skeletal system",
     marks: 1
   },
   {
     id: 12,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Who discovered the cell?",
+    question: "Reproduction is the process by which living things _____.",
     options: [
-      "Isaac Newton",
-      "Robert Hooke",
-      "Albert Einstein",
-      "Charles Darwin"
+      "grow bigger",
+      "respond to stimuli",
+      "produce new ones of their kind",
+      "move from place to place"
     ],
-    correctAnswer: "Robert Hooke",
+    correctAnswer: "produce new ones of their kind",
     marks: 1
   },
   {
     id: 13,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Cells were first observed in a piece of __________.",
+    question: "Which part of a flowering plant is mainly responsible for reproduction?",
     options: [
-      "Bone",
-      "Cork",
-      "Paper",
-      "Glass"
+      "Root",
+      "Stem",
+      "Flower",
+      "Leaf"
     ],
-    correctAnswer: "Cork",
+    correctAnswer: "Flower",
     marks: 1
   },
   {
     id: 14,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The outer covering of a cell is called the __________.",
+    question: "Which of the following is an example of asexual reproduction in plants?",
     options: [
-      "Cytoplasm",
-      "Nucleus",
-      "Cell membrane",
-      "Cell wall"
+      "Pollination",
+      "Fertilization",
+      "Budding",
+      "Seed formation"
     ],
-    correctAnswer: "Cell membrane",
+    correctAnswer: "Budding",
     marks: 1
   },
   {
     id: 15,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Which part of the plant cell gives it shape and support?",
+    question: "Which of these animals gives birth to live young ones?",
     options: [
-      "Nucleus",
-      "Cell wall",
-      "Cytoplasm",
-      "Vacuole"
+      "Fish",
+      "Frog",
+      "Lizard",
+      "Goat"
     ],
-    correctAnswer: "Cell wall",
+    correctAnswer: "Goat",
     marks: 1
   },
   {
     id: 16,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Which part of the cell controls its activities?",
+    question: "Living things are classified mainly to make them easier to _____.",
     options: [
-      "Nucleus",
-      "Cytoplasm",
-      "Cell wall",
-      "Chloroplast"
+      "destroy",
+      "study",
+      "cook",
+      "mix"
     ],
-    correctAnswer: "Nucleus",
+    correctAnswer: "study",
     marks: 1
   },
   {
     id: 17,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The jelly-like substance found inside a cell is called __________.",
+    question: "Which of the following is NOT a characteristic used in classifying living things?",
     options: [
-      "Chlorophyll",
-      "Cytoplasm",
-      "Water",
-      "Protein"
+      "Mode of feeding",
+      "Colour",
+      "Type of body covering",
+      "Method of reproduction"
     ],
-    correctAnswer: "Cytoplasm",
+    correctAnswer: "Colour",
     marks: 1
   },
   {
     id: 18,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Chloroplasts are found only in __________ cells.",
+    question: "Which group of animals has feathers on their bodies?",
     options: [
-      "Animal",
-      "Plant",
-      "Human",
-      "Bacterial"
+      "Mammals",
+      "Reptiles",
+      "Birds",
+      "Amphibians"
     ],
-    correctAnswer: "Plant",
+    correctAnswer: "Birds",
     marks: 1
   },
   {
     id: 19,
     type: 'multiple-choice',
     subject: 'science',
-    question: "A group of similar cells performing the same function forms a __________.",
+    question: "Plants that produce flowers and seeds are called _____.",
     options: [
-      "Tissue",
-      "Organ",
-      "System",
-      "Body"
+      "fungi",
+      "algae",
+      "flowering plants",
+      "mosses"
     ],
-    correctAnswer: "Tissue",
+    correctAnswer: "flowering plants",
     marks: 1
   },
   {
     id: 20,
     type: 'multiple-choice',
     subject: 'science',
-    question: "All living things are made up of __________.",
+    question: "A cell is best described as _____.",
     options: [
-      "Air",
-      "Water",
-      "Cells",
-      "Blood"
+      "the smallest part of an atom",
+      "the basic unit of life",
+      "a group of tissues",
+      "an organ in the body"
     ],
-    correctAnswer: "Cells",
+    correctAnswer: "the basic unit of life",
     marks: 1
   },
   {
     id: 21,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The human body is made up of many __________.",
+    question: "Which instrument is used to observe cells clearly?",
     options: [
-      "Systems",
-      "Tables",
-      "Atoms",
-      "Rocks"
+      "Thermometer",
+      "Microscope",
+      "Telescope",
+      "Barometer"
     ],
-    correctAnswer: "Systems",
+    correctAnswer: "Microscope",
     marks: 1
   },
   {
     id: 22,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The system responsible for digestion of food is the __________ system.",
+    question: "Which of the following organisms is made up of only one cell?",
     options: [
-      "Circulatory",
-      "Digestive",
-      "Nervous",
-      "Excretory"
+      "Man",
+      "Dog",
+      "Amoeba",
+      "Tree"
     ],
-    correctAnswer: "Digestive",
+    correctAnswer: "Amoeba",
     marks: 1
   },
   {
     id: 23,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The skeletal system helps the body to __________.",
+    question: "The part of the cell that controls all activities of the cell is the _____.",
     options: [
-      "Produce food",
-      "Maintain shape and movement",
-      "Pump blood",
-      "Breathe"
+      "cell wall",
+      "cytoplasm",
+      "nucleus",
+      "vacuole"
     ],
-    correctAnswer: "Maintain shape and movement",
+    correctAnswer: "nucleus",
     marks: 1
   },
   {
     id: 24,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The breathing system is also known as the __________ system.",
+    question: "Growth in living things refers to an increase in _____.",
     options: [
-      "Nervous",
-      "Digestive",
-      "Respiratory",
-      "Skeletal"
+      "intelligence only",
+      "body size and mass",
+      "movement",
+      "behaviour"
     ],
-    correctAnswer: "Respiratory",
+    correctAnswer: "body size and mass",
     marks: 1
   },
   {
     id: 25,
     type: 'multiple-choice',
     subject: 'science',
-    question: "Which system helps to transport oxygen and nutrients?",
+    question: "Development in living things means the ability to _____.",
     options: [
-      "Circulatory system",
-      "Digestive system",
-      "Nervous system",
-      "Skeletal system"
+      "increase in weight only",
+      "change in form and function",
+      "move from place to place",
+      "respond to light"
     ],
-    correctAnswer: "Circulatory system",
+    correctAnswer: "change in form and function",
     marks: 1
   },
   {
     id: 26,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The excretory system removes __________ from the body.",
+    question: "Which of the following is an example of a microorganism?",
     options: [
-      "Blood",
-      "Waste",
-      "Oxygen",
-      "Nutrients"
+      "Dog",
+      "Frog",
+      "Bacteria",
+      "Lizard"
     ],
-    correctAnswer: "Waste",
+    correctAnswer: "Bacteria",
     marks: 1
   },
   {
     id: 27,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The brain is part of the __________ system.",
+    question: "Microorganisms can be seen clearly with the help of a _____.",
     options: [
-      "Circulatory",
-      "Nervous",
-      "Skeletal",
-      "Muscular"
+      "telescope",
+      "thermometer",
+      "microscope",
+      "barometer"
     ],
-    correctAnswer: "Nervous",
+    correctAnswer: "microscope",
     marks: 1
   },
   {
     id: 28,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The organ responsible for pumping blood is the __________.",
+    question: "Which of the following microorganisms can cause diseases in humans?",
     options: [
-      "Liver",
-      "Heart",
-      "Lungs",
-      "Kidney"
+      "Yeast",
+      "Bacteria",
+      "Algae",
+      "Moss"
     ],
-    correctAnswer: "Heart",
+    correctAnswer: "Bacteria",
     marks: 1
   },
   {
     id: 29,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The skin is part of the __________ system.",
+    question: "Which organ of the body is responsible for thinking and control?",
     options: [
-      "Digestive",
-      "Respiratory",
-      "Integumentary",
-      "Circulatory"
+      "Heart",
+      "Brain",
+      "Liver",
+      "Lungs"
     ],
-    correctAnswer: "Integumentary",
+    correctAnswer: "Brain",
     marks: 1
   },
   {
     id: 30,
     type: 'multiple-choice',
     subject: 'science',
-    question: "The muscular system helps us to __________.",
+    question: "The system of the body that transports blood round the body is the _____.",
     options: [
-      "Think",
-      "Digest food",
-      "Move",
-      "Pump blood"
+      "digestive system",
+      "respiratory system",
+      "circulatory system"
     ],
-    correctAnswer: "Move",
-    marks: 1
-  },
-  {
-    id: 31,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The main organ of the circulatory system is the __________.",
-    options: [
-      "Brain",
-      "Heart",
-      "Lung",
-      "Kidney"
-    ],
-    correctAnswer: "Heart",
-    marks: 1
-  },
-  {
-    id: 32,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The liquid that carries nutrients and oxygen around the body is __________.",
-    options: [
-      "Water",
-      "Blood",
-      "Saliva",
-      "Sweat"
-    ],
-    correctAnswer: "Blood",
-    marks: 1
-  },
-  {
-    id: 33,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Which part of the blood carries oxygen?",
-    options: [
-      "White blood cells",
-      "Red blood cells",
-      "Platelets",
-      "Plasma"
-    ],
-    correctAnswer: "Red blood cells",
-    marks: 1
-  },
-  {
-    id: 34,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Which part of the blood fights diseases?",
-    options: [
-      "Red blood cells",
-      "White blood cells",
-      "Platelets",
-      "Plasma"
-    ],
-    correctAnswer: "White blood cells",
-    marks: 1
-  },
-  {
-    id: 35,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The heart pumps blood through __________.",
-    options: [
-      "Veins and arteries",
-      "Bones",
-      "Muscles",
-      "Nerves"
-    ],
-    correctAnswer: "Veins and arteries",
-    marks: 1
-  },
-  {
-    id: 36,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Blood returns to the heart through the __________.",
-    options: [
-      "Arteries",
-      "Veins",
-      "Capillaries",
-      "Valves"
-    ],
-    correctAnswer: "Veins",
-    marks: 1
-  },
-  {
-    id: 37,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The heart has __________ chambers.",
-    options: [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    correctAnswer: "4",
-    marks: 1
-  },
-  {
-    id: 38,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The upper chambers of the heart are called __________.",
-    options: [
-      "Ventricles",
-      "Atria",
-      "Valves",
-      "Vessels"
-    ],
-    correctAnswer: "Atria",
-    marks: 1
-  },
-  {
-    id: 39,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Which blood vessels carry blood away from the heart?",
-    options: [
-      "Veins",
-      "Arteries",
-      "Capillaries",
-      "Tubes"
-    ],
-    correctAnswer: "Arteries",
-    marks: 1
-  },
-  {
-    id: 40,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "What is the main function of the circulatory system?",
-    options: [
-      "To digest food",
-      "To carry blood, oxygen, and nutrients",
-      "To control movement",
-      "To protect the body"
-    ],
-    correctAnswer: "To carry blood, oxygen, and nutrients",
-    marks: 1
-  },
-  {
-    id: 41,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The process by which plants produce new plants is called __________.",
-    options: [
-      "Photosynthesis",
-      "Reproduction",
-      "Germination",
-      "Fertilization"
-    ],
-    correctAnswer: "Reproduction",
-    marks: 1
-  },
-  {
-    id: 42,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The male part of a flower is called the __________.",
-    options: [
-      "Pistil",
-      "Stamen",
-      "Petal",
-      "Ovary"
-    ],
-    correctAnswer: "Stamen",
-    marks: 1
-  },
-  {
-    id: 43,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The female part of a flower is called the __________.",
-    options: [
-      "Stamen",
-      "Pistil",
-      "Sepal",
-      "Petal"
-    ],
-    correctAnswer: "Pistil",
-    marks: 1
-  },
-  {
-    id: 44,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The transfer of pollen from the anther to the stigma is called __________.",
-    options: [
-      "Germination",
-      "Pollination",
-      "Fertilization",
-      "Transpiration"
-    ],
-    correctAnswer: "Pollination",
-    marks: 1
-  },
-  {
-    id: 45,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Pollination can be carried out by __________.",
-    options: [
-      "Bees and wind",
-      "Stones",
-      "Fire",
-      "Water only"
-    ],
-    correctAnswer: "Bees and wind",
-    marks: 1
-  },
-  {
-    id: 46,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "When pollen reaches the ovule, __________ occurs.",
-    options: [
-      "Germination",
-      "Fertilization",
-      "Photosynthesis",
-      "Transpiration"
-    ],
-    correctAnswer: "Fertilization",
-    marks: 1
-  },
-  {
-    id: 47,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "After fertilization, the ovary develops into a __________.",
-    options: [
-      "Seed",
-      "Fruit",
-      "Leaf",
-      "Root"
-    ],
-    correctAnswer: "Fruit",
-    marks: 1
-  },
-  {
-    id: 48,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Which part of a seed grows into a new plant?",
-    options: [
-      "Seed coat",
-      "Cotyledon",
-      "Embryo",
-      "Fruit"
-    ],
-    correctAnswer: "Embryo",
-    marks: 1
-  },
-  {
-    id: 49,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The type of reproduction that does not involve seeds is called __________.",
-    options: [
-      "Sexual reproduction",
-      "Asexual reproduction",
-      "Pollination",
-      "Fertilization"
-    ],
-    correctAnswer: "Asexual reproduction",
-    marks: 1
-  },
-  {
-    id: 50,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "A potato reproduces through its __________.",
-    options: [
-      "Stem tuber",
-      "Root",
-      "Leaf",
-      "Seed"
-    ],
-    correctAnswer: "Stem tuber",
-    marks: 1
-  },
-  {
-    id: 51,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Photosynthesis is the process by which plants make __________.",
-    options: [
-      "Oxygen",
-      "Food",
-      "Soil",
-      "Water"
-    ],
-    correctAnswer: "Food",
-    marks: 1
-  },
-  {
-    id: 52,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Which gas do plants use during photosynthesis?",
-    options: [
-      "Oxygen",
-      "Carbon dioxide",
-      "Nitrogen",
-      "Hydrogen"
-    ],
-    correctAnswer: "Carbon dioxide",
-    marks: 1
-  },
-  {
-    id: 53,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Which gas is released during photosynthesis?",
-    options: [
-      "Carbon dioxide",
-      "Nitrogen",
-      "Oxygen",
-      "Helium"
-    ],
-    correctAnswer: "Oxygen",
-    marks: 1
-  },
-  {
-    id: 54,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Which part of the plant carries out photosynthesis?",
-    options: [
-      "Roots",
-      "Leaves",
-      "Stems",
-      "Flowers"
-    ],
-    correctAnswer: "Leaves",
-    marks: 1
-  },
-  {
-    id: 55,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The green substance in leaves that traps sunlight is called __________.",
-    options: [
-      "Chlorophyll",
-      "Cytoplasm",
-      "Starch",
-      "Water"
-    ],
-    correctAnswer: "Chlorophyll",
-    marks: 1
-  },
-  {
-    id: 56,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "Which of the following is needed for photosynthesis?",
-    options: [
-      "Water, sunlight, and carbon dioxide",
-      "Soil, air, and minerals",
-      "Sand, sunlight, and oxygen",
-      "Oxygen, wind, and roots"
-    ],
-    correctAnswer: "Water, sunlight, and carbon dioxide",
-    marks: 1
-  },
-  {
-    id: 57,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The food made by plants during photosynthesis is stored as __________.",
-    options: [
-      "Glucose or starch",
-      "Protein",
-      "Fat",
-      "Vitamin"
-    ],
-    correctAnswer: "Glucose or starch",
-    marks: 1
-  },
-  {
-    id: 58,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "During photosynthesis, energy is taken from __________.",
-    options: [
-      "Soil",
-      "Sunlight",
-      "Wind",
-      "Water"
-    ],
-    correctAnswer: "Sunlight",
-    marks: 1
-  },
-  {
-    id: 59,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The process of photosynthesis mainly occurs in the __________.",
-    options: [
-      "Night",
-      "Daytime",
-      "Evening only",
-      "Underground"
-    ],
-    correctAnswer: "Daytime",
-    marks: 1
-  },
-  {
-    id: 60,
-    type: 'multiple-choice',
-    subject: 'science',
-    question: "The main importance of photosynthesis is that it __________.",
-    options: [
-      "Provides oxygen and food for living things",
-      "Produces waste",
-      "Destroys carbon dioxide",
-      "Causes rain"
-    ],
-    correctAnswer: "Provides oxygen and food for living things",
+    correctAnswer: "circulatory system",
     marks: 1
   }
 ];
