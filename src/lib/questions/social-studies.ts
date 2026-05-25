@@ -1,425 +1,844 @@
 import { Question } from '@/types';
 
 export const scsQuestions: Question[] = [
-  // Section A: Multiple Choice Questions (30 Questions)
   {
     id: 1,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Population refers to the ______",
+    question: "Drug trafficking refers to the illegal ______.",
     options: [
-      "number of houses in a town",
-      "number of people living in an area",
-      "number of schools",
-      "number of markets"
+      "buying and selling of drugs",
+      "planting of flowers",
+      "teaching in schools",
+      "washing clothes"
     ],
-    correctAnswer: "number of people living in an area",
+    correctAnswer: "buying and selling of drugs",
     marks: 1
   },
   {
     id: 2,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Census is conducted to ______",
+    question: "Drug trafficking refers to the illegal ______.",
     options: [
-      "count vehicles",
-      "count people",
-      "build roads",
-      "collect taxes"
+      "buying and selling of drugs",
+      "planting of flowers",
+      "teaching in schools",
+      "washing clothes"
     ],
-    correctAnswer: "count people",
+    correctAnswer: "buying and selling of drugs",
     marks: 1
   },
   {
     id: 3,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "High population growth may lead to ______",
+    question: "Drug trafficking refers to the illegal ______.",
     options: [
-      "more space",
-      "unemployment",
-      "less competition",
-      "fewer schools"
+      "buying and selling of drugs",
+      "planting of flowers",
+      "teaching in schools",
+      "washing clothes"
     ],
-    correctAnswer: "unemployment",
+    correctAnswer: "buying and selling of drugs",
     marks: 1
   },
   {
     id: 4,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "One factor that affects population growth is ______",
+    question: "Drug trafficking refers to the illegal ______.",
     options: [
-      "rainfall",
-      "birth rate",
-      "soil type",
-      "wind"
+      "buying and selling of drugs",
+      "planting of flowers",
+      "teaching in schools",
+      "washing clothes"
     ],
-    correctAnswer: "birth rate",
+    correctAnswer: "buying and selling of drugs",
     marks: 1
   },
   {
     id: 5,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Rural-urban migration means moving from ______",
+    question: "Drug trafficking refers to the illegal ______.",
     options: [
-      "city to village",
-      "village to city",
-      "country to country",
-      "house to house"
+      "buying and selling of drugs",
+      "planting of flowers",
+      "teaching in schools",
+      "washing clothes"
     ],
-    correctAnswer: "village to city",
+    correctAnswer: "buying and selling of drugs",
     marks: 1
   },
   {
     id: 6,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Overpopulation can cause ______",
+    question: "Drug trafficking refers to the illegal ______.",
     options: [
-      "shortage of resources",
-      "increase in jobs",
-      "peace and order",
-      "more land"
+      "buying and selling of drugs",
+      "planting of flowers",
+      "teaching in schools",
+      "washing clothes"
     ],
-    correctAnswer: "shortage of resources",
+    correctAnswer: "buying and selling of drugs",
     marks: 1
   },
   {
     id: 7,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "A scs affects ______",
+    question: "Drug trafficking refers to the illegal ______.",
     options: [
-      "one person only",
-      "the whole society",
-      "animals only",
-      "plants only"
+      "buying and selling of drugs",
+      "planting of flowers",
+      "teaching in schools",
+      "washing clothes"
     ],
-    correctAnswer: "the whole society",
+    correctAnswer: "buying and selling of drugs",
     marks: 1
   },
   {
     id: 8,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Drug abuse is an example of a ______",
+    question: "Drug trafficking refers to the illegal ______.",
     options: [
-      "scs",
-      "scs",
-      "natural disaster",
-      "festival"
+      "buying and selling of drugs",
+      "planting of flowers",
+      "teaching in schools",
+      "washing clothes"
     ],
-    correctAnswer: "scs",
+    correctAnswer: "buying and selling of drugs",
     marks: 1
   },
   {
     id: 9,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Poverty can lead to ______",
+    question: "Drug trafficking refers to the illegal ______.",
     options: [
-      "happiness",
-      "crime",
-      "celebration",
-      "tourism"
+      "buying and selling of drugs",
+      "planting of flowers",
+      "teaching in schools",
+      "washing clothes"
     ],
-    correctAnswer: "crime",
+    correctAnswer: "buying and selling of drugs",
     marks: 1
   },
   {
     id: 10,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Cultism is common among some ______",
+    question: "Drug trafficking refers to the illegal ______.",
     options: [
-      "farmers",
-      "traders",
-      "students",
-      "doctors"
+      "buying and selling of drugs",
+      "planting of flowers",
+      "teaching in schools",
+      "washing clothes"
     ],
-    correctAnswer: "students",
+    correctAnswer: "buying and selling of drugs",
     marks: 1
   },
   {
     id: 11,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "One way to reduce scss is through ______",
+    question: "Drug trafficking refers to the illegal ______.",
     options: [
-      "education",
-      "fighting",
-      "stealing",
-      "cheating"
+      "buying and selling of drugs",
+      "planting of flowers",
+      "teaching in schools",
+      "washing clothes"
     ],
-    correctAnswer: "education",
+    correctAnswer: "buying and selling of drugs",
     marks: 1
   },
   {
     id: 12,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Child labour is a form of ______",
+    question: "Drug trafficking refers to the illegal ______.",
     options: [
-      "entertainment",
-      "scs",
-      "sport",
-      "celebration"
+      "buying and selling of drugs",
+      "planting of flowers",
+      "teaching in schools",
+      "washing clothes"
     ],
-    correctAnswer: "scs",
+    correctAnswer: "buying and selling of drugs",
     marks: 1
   },
   {
     id: 13,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Crime is an act that is ______",
+    question: "One importance of Social Studies is to ______.",
     options: [
-      "lawful",
-      "accepted",
-      "against the law",
-      "peaceful"
+      "promote good citizenship",
+      "encourage fighting",
+      "stop education",
+      "create confusion"
     ],
-    correctAnswer: "against the law",
+    correctAnswer: "promote good citizenship",
     marks: 1
   },
   {
     id: 14,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Stealing is a type of ______",
+    question: "One importance of Social Studies is to ______.",
     options: [
-      "sport",
-      "crime",
-      "celebration",
-      "culture"
+      "promote good citizenship",
+      "encourage fighting",
+      "stop education",
+      "create confusion"
     ],
-    correctAnswer: "crime",
+    correctAnswer: "promote good citizenship",
     marks: 1
   },
   {
     id: 15,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "National security helps to protect the ______",
+    question: "One importance of Social Studies is to ______.",
     options: [
-      "animals",
-      "country",
-      "farms",
-      "rivers"
+      "promote good citizenship",
+      "encourage fighting",
+      "stop education",
+      "create confusion"
     ],
-    correctAnswer: "country",
+    correctAnswer: "promote good citizenship",
     marks: 1
   },
   {
     id: 16,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "One agency responsible for national security in Nigeria is _____",
+    question: "One importance of Social Studies is to ______.",
     options: [
-      "Road union",
-      "Market women association",
-      "Nigeria Police Force",
-      "Football club"
+      "promote good citizenship",
+      "encourage fighting",
+      "stop education",
+      "create confusion"
     ],
-    correctAnswer: "Nigeria Police Force",
+    correctAnswer: "promote good citizenship",
     marks: 1
   },
   {
     id: 17,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Reporting suspicious activities helps to promote ______",
+    question: "One importance of Social Studies is to ______.",
     options: [
-      "crime",
-      "national security",
-      "poverty",
-      "illness"
+      "promote good citizenship",
+      "encourage fighting",
+      "stop education",
+      "create confusion"
     ],
-    correctAnswer: "national security",
+    correctAnswer: "promote good citizenship",
     marks: 1
   },
   {
     id: 18,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Armed robbery is a ______ crime",
+    question: "One importance of Social Studies is to ______.",
     options: [
-      "minor",
-      "serious",
-      "harmless",
-      "lawful"
+      "promote good citizenship",
+      "encourage fighting",
+      "stop education",
+      "create confusion"
     ],
-    correctAnswer: "serious",
+    correctAnswer: "promote good citizenship",
     marks: 1
   },
   {
     id: 19,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Human rights are the basic rights of every ______",
+    question: "An extended family includes ______.",
     options: [
-      "animal",
-      "citizen",
-      "object",
-      "building"
+      "only father and mother",
+      "relatives like uncles and grandparents",
+      "classmates only",
+      "neighbors only"
     ],
-    correctAnswer: "citizen",
+    correctAnswer: "relatives like uncles and grandparents",
     marks: 1
   },
   {
     id: 20,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Denying someone education is a form of ______",
+    question: "An extended family includes ______.",
     options: [
-      "reward",
-      "human rights abuse",
-      "celebration",
-      "tourism"
+      "only father and mother",
+      "relatives like uncles and grandparents",
+      "classmates only",
+      "neighbors only"
     ],
-    correctAnswer: "human rights abuse",
+    correctAnswer: "relatives like uncles and grandparents",
     marks: 1
   },
   {
     id: 21,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Child abuse includes ______",
+    question: "An extended family includes ______.",
     options: [
-      "protecting children",
-      "training children",
-      "harming children",
-      "feeding children"
+      "only father and mother",
+      "relatives like uncles and grandparents",
+      "classmates only",
+      "neighbors only"
     ],
-    correctAnswer: "harming children",
+    correctAnswer: "relatives like uncles and grandparents",
     marks: 1
   },
   {
     id: 22,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Freedom of speech means the right to ______",
+    question: "An extended family includes ______.",
     options: [
-      "fight",
-      "express opinions",
-      "steal",
-      "disobey laws"
+      "only father and mother",
+      "relatives like uncles and grandparents",
+      "classmates only",
+      "neighbors only"
     ],
-    correctAnswer: "express opinions",
+    correctAnswer: "relatives like uncles and grandparents",
     marks: 1
   },
   {
     id: 23,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Torture is a form of ______",
+    question: "An extended family includes ______.",
     options: [
-      "discipline",
-      "human rights abuse",
-      "sport",
-      "culture"
+      "only father and mother",
+      "relatives like uncles and grandparents",
+      "classmates only",
+      "neighbors only"
     ],
-    correctAnswer: "human rights abuse",
+    correctAnswer: "relatives like uncles and grandparents",
     marks: 1
   },
   {
     id: 24,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "The right to life means no one should be ______ unlawfully",
+    question: "An extended family includes ______.",
     options: [
-      "punished",
-      "protected",
-      "killed",
-      "educated"
+      "only father and mother",
+      "relatives like uncles and grandparents",
+      "classmates only",
+      "neighbors only"
     ],
-    correctAnswer: "killed",
+    correctAnswer: "relatives like uncles and grandparents",
     marks: 1
   },
   {
     id: 25,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Election is the process of choosing ______",
+    question: "Human trafficking is the illegal movement of ______.",
     options: [
-      "teachers",
-      "leaders",
-      "farmers",
-      "drivers"
+      "goods",
+      "animals",
+      "people",
+      "books"
     ],
-    correctAnswer: "leaders",
+    correctAnswer: "people",
     marks: 1
   },
   {
     id: 26,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Buying votes during election is called ______",
+    question: "Human trafficking is the illegal movement of ______.",
     options: [
-      "voting",
-      "campaigning",
-      "electoral malpractice",
-      "democracy"
+      "goods",
+      "animals",
+      "people",
+      "books"
     ],
-    correctAnswer: "electoral malpractice",
+    correctAnswer: "people",
     marks: 1
   },
   {
     id: 27,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Snatching ballot boxes is an example of ______",
+    question: "Human trafficking is the illegal movement of ______.",
     options: [
-      "fair play",
-      "justice",
-      "electoral malpractice",
-      "cooperation"
+      "goods",
+      "animals",
+      "people",
+      "books"
     ],
-    correctAnswer: "electoral malpractice",
+    correctAnswer: "people",
     marks: 1
   },
   {
     id: 28,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "The body that conducts elections in Nigeria is _______",
+    question: "Human trafficking is the illegal movement of ______.",
     options: [
-      "NNPC",
-      "INEC",
-      "WAEC",
-      "EFCC"
+      "goods",
+      "animals",
+      "people",
+      "books"
     ],
-    correctAnswer: "INEC",
+    correctAnswer: "people",
     marks: 1
   },
   {
     id: 29,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "Free and fair elections promote ______",
+    question: "Human trafficking is the illegal movement of ______.",
     options: [
-      "violence",
-      "democracy",
-      "crime",
-      "poverty"
+      "goods",
+      "animals",
+      "people",
+      "books"
     ],
-    correctAnswer: "democracy",
+    correctAnswer: "people",
     marks: 1
   },
   {
     id: 30,
     type: 'multiple-choice',
     subject: 'scs',
-    question: "One way to prevent electoral malpractice is by ______",
+    question: "Human trafficking is the illegal movement of ______.",
     options: [
-      "destroying materials",
-      "educating voters",
-      "fighting opponents",
-      "hiding results"
+      "goods",
+      "animals",
+      "people",
+      "books"
     ],
-    correctAnswer: "educating voters",
+    correctAnswer: "people",
+    marks: 1
+  },
+  {
+    id: 31,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Human trafficking is the illegal movement of ______.",
+    options: [
+      "goods",
+      "animals",
+      "people",
+      "books"
+    ],
+    correctAnswer: "people",
+    marks: 1
+  },
+  {
+    id: 32,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Human trafficking is the illegal movement of ______.",
+    options: [
+      "goods",
+      "animals",
+      "people",
+      "books"
+    ],
+    correctAnswer: "people",
+    marks: 1
+  },
+  {
+    id: 33,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Human trafficking is the illegal movement of ______.",
+    options: [
+      "goods",
+      "animals",
+      "people",
+      "books"
+    ],
+    correctAnswer: "people",
+    marks: 1
+  },
+  {
+    id: 34,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Human trafficking is the illegal movement of ______.",
+    options: [
+      "goods",
+      "animals",
+      "people",
+      "books"
+    ],
+    correctAnswer: "people",
+    marks: 1
+  },
+  {
+    id: 35,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Human trafficking is the illegal movement of ______.",
+    options: [
+      "goods",
+      "animals",
+      "people",
+      "books"
+    ],
+    correctAnswer: "people",
+    marks: 1
+  },
+  {
+    id: 36,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Human trafficking is the illegal movement of ______.",
+    options: [
+      "goods",
+      "animals",
+      "people",
+      "books"
+    ],
+    correctAnswer: "people",
+    marks: 1
+  },
+  {
+    id: 37,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Human trafficking is the illegal movement of ______.",
+    options: [
+      "goods",
+      "animals",
+      "people",
+      "books"
+    ],
+    correctAnswer: "people",
+    marks: 1
+  },
+  {
+    id: 38,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Human trafficking is the illegal movement of ______.",
+    options: [
+      "goods",
+      "animals",
+      "people",
+      "books"
+    ],
+    correctAnswer: "people",
+    marks: 1
+  },
+  {
+    id: 39,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Human trafficking is the illegal movement of ______.",
+    options: [
+      "goods",
+      "animals",
+      "people",
+      "books"
+    ],
+    correctAnswer: "people",
+    marks: 1
+  },
+  {
+    id: 40,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Human trafficking is the illegal movement of ______.",
+    options: [
+      "goods",
+      "animals",
+      "people",
+      "books"
+    ],
+    correctAnswer: "people",
+    marks: 1
+  },
+  {
+    id: 41,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Human trafficking is the illegal movement of ______.",
+    options: [
+      "goods",
+      "animals",
+      "people",
+      "books"
+    ],
+    correctAnswer: "people",
+    marks: 1
+  },
+  {
+    id: 42,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Human trafficking is the illegal movement of ______.",
+    options: [
+      "goods",
+      "animals",
+      "people",
+      "books"
+    ],
+    correctAnswer: "people",
+    marks: 1
+  },
+  {
+    id: 43,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Which of the following is a harmful traditional practice?",
+    options: [
+      "Early marriage",
+      "Respecting elders",
+      "Going to school",
+      "Playing football"
+    ],
+    correctAnswer: "Early marriage",
+    marks: 1
+  },
+  {
+    id: 44,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Which of the following is a harmful traditional practice?",
+    options: [
+      "Early marriage",
+      "Respecting elders",
+      "Going to school",
+      "Playing football"
+    ],
+    correctAnswer: "Early marriage",
+    marks: 1
+  },
+  {
+    id: 45,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Which of the following is a harmful traditional practice?",
+    options: [
+      "Early marriage",
+      "Respecting elders",
+      "Going to school",
+      "Playing football"
+    ],
+    correctAnswer: "Early marriage",
+    marks: 1
+  },
+  {
+    id: 46,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Which of the following is a harmful traditional practice?",
+    options: [
+      "Early marriage",
+      "Respecting elders",
+      "Going to school",
+      "Playing football"
+    ],
+    correctAnswer: "Early marriage",
+    marks: 1
+  },
+  {
+    id: 47,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Which of the following is a harmful traditional practice?",
+    options: [
+      "Early marriage",
+      "Respecting elders",
+      "Going to school",
+      "Playing football"
+    ],
+    correctAnswer: "Early marriage",
+    marks: 1
+  },
+  {
+    id: 48,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Which of the following is a harmful traditional practice?",
+    options: [
+      "Early marriage",
+      "Respecting elders",
+      "Going to school",
+      "Playing football"
+    ],
+    correctAnswer: "Early marriage",
+    marks: 1
+  },
+  {
+    id: 49,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Which of the following is a harmful traditional practice?",
+    options: [
+      "Early marriage",
+      "Respecting elders",
+      "Going to school",
+      "Playing football"
+    ],
+    correctAnswer: "Early marriage",
+    marks: 1
+  },
+  {
+    id: 50,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Which of the following is a harmful traditional practice?",
+    options: [
+      "Early marriage",
+      "Respecting elders",
+      "Going to school",
+      "Playing football"
+    ],
+    correctAnswer: "Early marriage",
+    marks: 1
+  },
+  {
+    id: 51,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Which of the following is a harmful traditional practice?",
+    options: [
+      "Early marriage",
+      "Respecting elders",
+      "Going to school",
+      "Playing football"
+    ],
+    correctAnswer: "Early marriage",
+    marks: 1
+  },
+  {
+    id: 52,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Which of the following is a harmful traditional practice?",
+    options: [
+      "Early marriage",
+      "Respecting elders",
+      "Going to school",
+      "Playing football"
+    ],
+    correctAnswer: "Early marriage",
+    marks: 1
+  },
+  {
+    id: 53,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Which of the following is a harmful traditional practice?",
+    options: [
+      "Early marriage",
+      "Respecting elders",
+      "Going to school",
+      "Playing football"
+    ],
+    correctAnswer: "Early marriage",
+    marks: 1
+  },
+  {
+    id: 54,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Which of the following is a harmful traditional practice?",
+    options: [
+      "Early marriage",
+      "Respecting elders",
+      "Going to school",
+      "Playing football"
+    ],
+    correctAnswer: "Early marriage",
+    marks: 1
+  },
+  {
+    id: 55,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Which of the following is a harmful traditional practice?",
+    options: [
+      "Early marriage",
+      "Respecting elders",
+      "Going to school",
+      "Playing football"
+    ],
+    correctAnswer: "Early marriage",
+    marks: 1
+  },
+  {
+    id: 56,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Which of the following is a harmful traditional practice?",
+    options: [
+      "Early marriage",
+      "Respecting elders",
+      "Going to school",
+      "Playing football"
+    ],
+    correctAnswer: "Early marriage",
+    marks: 1
+  },
+  {
+    id: 57,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Which of the following is a harmful traditional practice?",
+    options: [
+      "Early marriage",
+      "Respecting elders",
+      "Going to school",
+      "Playing football"
+    ],
+    correctAnswer: "Early marriage",
+    marks: 1
+  },
+  {
+    id: 58,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Which of the following is a harmful traditional practice?",
+    options: [
+      "Early marriage",
+      "Respecting elders",
+      "Going to school",
+      "Playing football"
+    ],
+    correctAnswer: "Early marriage",
+    marks: 1
+  },
+  {
+    id: 59,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Which of the following is a harmful traditional practice?",
+    options: [
+      "Early marriage",
+      "Respecting elders",
+      "Going to school",
+      "Playing football"
+    ],
+    correctAnswer: "Early marriage",
+    marks: 1
+  },
+  {
+    id: 60,
+    type: 'multiple-choice',
+    subject: 'scs',
+    question: "Which of the following is a harmful traditional practice?",
+    options: [
+      "Early marriage",
+      "Respecting elders",
+      "Going to school",
+      "Playing football"
+    ],
+    correctAnswer: "Early marriage",
     marks: 1
   }
 ];
